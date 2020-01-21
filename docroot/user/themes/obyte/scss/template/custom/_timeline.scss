@@ -1,0 +1,11 @@
+.timeline {
+  background: blue;
+  padding: 1rem;
+  &-points {
+    background: yellow;
+  }
+  &-item {
+    margin: .5rem;
+    background: red;
+  }
+}
