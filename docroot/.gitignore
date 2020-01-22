@@ -28,7 +28,7 @@ user/themes/*
 !user/themes/obyte
 user/localhost/config/security.yaml
 user/config/security.yaml
-
+.idea/
 # OS Generated
 .DS_Store*
 ehthumbs.db
