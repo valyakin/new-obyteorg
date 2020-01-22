@@ -1,7 +1,7 @@
 ---
 title: Home
 onpage_menu: false
-body_classes: 'title-center title-h1h2'
+body_classes: ''
 
 content:
     items: '@self.modular'

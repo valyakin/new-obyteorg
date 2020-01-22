@@ -1,0 +1,46 @@
+#header {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: $header-color;
+  .logo {
+    padding: 19px 0 17px;
+    img {
+      height: 62px;
+    }
+  }
+  .dropmenu {
+    margin-right: 25px;
+    ul li {
+      a {
+        padding: 16px 7px;
+        font-weight: bold;
+        font-size: 16px;
+        color: $link-color;
+      }
+    }
+  }
+
+  .lang-block {
+    margin-right: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    a {
+      color: $link-color;
+    }
+    .current-lang {
+      padding: 12px 8px 10px 9px;
+      border: 1px solid rgba($blue, 0.2);
+      border-radius: 50%;
+      &:hover {
+        text-decoration: none;
+        border-color: $blue
+      }
+    }
+    .lang-list {
+      display: none;
+      position: absolute;
+      top: 42px;
+      left: 0;
+    }
+  }
+}
+

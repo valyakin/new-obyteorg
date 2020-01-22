@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.d-flex {
+  &.align-items-center {
+    align-items: center;
+  }
+  &.justify-content-between {
+    justify-content: space-between;
+  }
+}
+
+.btn {
+  padding: 11px 19px 9px;
+  height: auto;
+  line-height: normal;
+  background-color: $blue;
+  border-radius: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  color: $white;
+  text-decoration: none;
+  &:hover {
+    color: $blue;
+  }
+}
+
+#page-wrapper {
+  background-size: 100% auto;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-color: $body-color;
+}

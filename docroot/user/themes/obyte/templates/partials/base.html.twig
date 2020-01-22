@@ -38,7 +38,7 @@
 {% endblock %}
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
-    <div id="page-wrapper">
+    <div id="page-wrapper" style="background-image: url({{ url('theme://assets/hero-bg.png') }})">
     {% block header %}
         <section id="header" class="section">
             <section class="container {{ grid_size }}">
@@ -47,12 +47,15 @@
                         {% include 'partials/logo.html.twig' %}
                     </section>
                     <section class="navbar-section desktop-menu">
-
-                        <nav class="dropmenu animated">
-                        {% block header_navigation %}
-                            {% include 'partials/navigation.html.twig' %}
-                        {% endblock %}
-                        </nav>
+                        <div class="d-flex flex-centered">
+                            <nav class="dropmenu animated">
+                                {% block header_navigation %}
+                                    {% include 'partials/navigation.html.twig' %}
+                                {% endblock %}
+                            </nav>
+                            {% include 'partials/lang-prefix.html.twig' %}
+                            <input type="button" class="btn btn-default" value="Download wallet">
+                        </div>
 
                         {% if config.plugins.login.enabled and grav.user.username %}
                             <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
