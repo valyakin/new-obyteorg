@@ -2,8 +2,10 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .d-flex {
+  &.align-items-start {
+    align-items: start;
+  }
   &.align-items-center {
     align-items: center;
   }
@@ -27,9 +29,20 @@ body {
   }
 }
 
+#page-wrapper .btn {
+  color: $white;
+  &:hover {
+    color: $blue;
+  }
+}
+
 #page-wrapper {
   background-size: 100% auto;
   background-position: center top;
   background-repeat: no-repeat;
   background-color: $body-color;
+}
+
+h1 {
+
 }

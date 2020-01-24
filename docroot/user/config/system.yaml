@@ -19,8 +19,8 @@ cache:
   prefix: 'g'
 
 twig:
-  cache: true
-  debug: true
+  cache: false
+  debug: false
   auto_reload: true
   autoescape: false
 

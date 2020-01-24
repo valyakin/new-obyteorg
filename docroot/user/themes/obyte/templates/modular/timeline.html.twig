@@ -1,20 +1,39 @@
 {% set grid_size = theme_var('grid-size') %}
-
-<section class="section modular-text {{ page.header.class}} bg-gray">
+<section class="section timeline-wrap {{ page.header.class}}">
     <section class="container {{ grid_size }}">
-        <div class="columns">
-            <div class="column col-12">
-                {{ content|raw }}
-            </div>
-            <div class="column col-12">
-                <div class="timeline-points">
-                    {% for point in page.header.points %}
-                    <div class="timeline-item">
-                        {{ point.title }}
+        <div class="text-block">
+            {{ content|raw }}
+        </div>
+    </section>
+    <div class="swiper-outer-wrap d-flex">
+        <div class="left-grad">
+            <div class="grad"></div>
+        </div>
+        <section class="container {{ grid_size }}">
+            <div class="swiper-container">
+            <div class="swiper-wrapper">
+                {% for point in page.header.points %}
+                    <div class="swiper-slide">
+                        <div class="dot"></div>
+                        <div class="timestamp">
+                            <div class="date">{{point.date}}</div>
+                            <div class="event">{{ point.title }}</div>
+                        </div>
                     </div>
-                    {% endfor  %}
+                {% endfor  %}
+            </div>
+            <div class="swiper-control d-flex">
+                <div class="control left">
+                    <img src="{{ url('theme://assets/svg/arrow-left.svg') }}" alt="">
+                </div>
+                <div class="control right">
+                    <img src="{{ url('theme://assets/svg/arrow-right.svg') }}" alt="">
                 </div>
             </div>
         </div>
-    </section>
+        </section>
+        <div class="right-grad">
+            <div class="grad"></div>
+        </div>
+    </div>
 </section>

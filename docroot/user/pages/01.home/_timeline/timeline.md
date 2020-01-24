@@ -3,17 +3,23 @@ title: Timeline
 asd: as1
 points:
   -
-    date: 2016-09
+    date: Sep 16
     title: Founder Tony announces Obyte
   -
-    date: 2016-12
+    date: Dec 16
     title: Network launched on Christmas Day
   -
-    date: 2017-03
+    date: Mar 17
     title: Release of conditional payments for P2P exchange of one Obyte currency for another Obyte currency
   -
-    date: 2017-05
+    date: Mar 17
     title: Release of binding payments to an event that happens outside the Obyte platform
+  -
+    date: Mar 19
+    title: Test 1
+  - 
+    date: Mar 20
+    title: Test 2
 ---
 
 # Timeline

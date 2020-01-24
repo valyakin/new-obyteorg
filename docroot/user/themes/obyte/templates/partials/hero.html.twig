@@ -3,13 +3,13 @@
     <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('left') }}">
         <div class="d-flex justify-content-between">
             <div class="text-block text-left">
-                {{ content|raw }}
+                {{ content | raw }}
                 <div class="btn-block">
                     <a href="" class="btn">Download wallet</a>
                 </div>
             </div>
             <div class="img-block">
-                <div class="img" style="background-image: url({{ url('theme://assets/hero-image.png') }})"></div>
+                <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
             </div>
         </div>
     </section>

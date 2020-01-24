@@ -13,6 +13,20 @@ function parallaxBackground() {
     $('.parallax').css('background-positionY', ($(window).scrollTop() * 0.3) + 'px');
 }
 
+function swiperMain () {
+    const swiper = document.querySelector('.swiper-container')
+    this.swiper = new Swiper(swiper, {
+        slidesPerView: 'auto',
+        grabCursor: true,
+        watchSlidesVisibility: true,
+        centeredSlides: document.body.getBoundingClientRect().width <= 450,
+        navigation: {
+            nextEl: '.control.right',
+            prevEl: '.control.left'
+        }
+    })
+}
+
 jQuery(document).ready(function($){
 
     scrollHeader();
@@ -56,4 +70,5 @@ jQuery(document).ready(function($){
     // Tree Menu
     $(".tree").treemenu({delay:300});
 
+    swiperMain();
 });

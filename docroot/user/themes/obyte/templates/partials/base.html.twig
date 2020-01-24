@@ -24,12 +24,14 @@
     {% do assets.addCss('theme://css-compiled/theme'~compress) %}
     {% do assets.addCss('theme://css/custom.css') %}
     {% do assets.addCss('theme://css/line-awesome.min.css') %}
+    {% do assets.addCss('theme://css/swiper.min.css') %}
 {% endblock %}
 
 {% block javascripts %}
     {% do assets.addJs('jquery', 101) %}
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://js/swiper.min.js', {group:'bottom'}) %}
 {% endblock %}
 
 {% block assets deferred %}
@@ -42,7 +44,7 @@
     {% block header %}
         <section id="header" class="section">
             <section class="container {{ grid_size }}">
-                <nav class="navbar">
+                <nav class="navbar flex-centered">
                     <section class="navbar-section logo">
                         {% include 'partials/logo.html.twig' %}
                     </section>
@@ -60,7 +62,6 @@
                         {% if config.plugins.login.enabled and grav.user.username %}
                             <span class="login-status-wrapper"><i class="fa fa-user"></i> {% include 'partials/login-status.html.twig' %}</span>
                         {% endif %}
-
                     </section>
                 </nav>
             </section>
@@ -75,7 +76,7 @@
     {% endblock %}
 
     {% block hero %}{% endblock %}
-
+    {% include 'partials/contracts.html.twig' ignore missing %}
         <section id="start">
         {% block body %}
             <section id="body-wrapper" class="section">

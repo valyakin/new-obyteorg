@@ -1,0 +1,31 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section downloads-wrap {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+        <div class="d-flex justify-content-between  ">
+            <div class="img-block">
+                <img src="{{ url('theme://assets/phone.png') }}" alt="">
+            </div>
+            <div class="content-block">
+                <div class="text-block">
+                    {{ content|raw }}
+                </div>
+                <div class="app-list d-flex">
+                    <a href="">
+                        <img src="{{ url('theme://assets/svg/app-store.svg') }}" alt="">
+                    </a>
+                    <a href="">
+                        <img src="{{ url('theme://assets/svg/google-play-store.svg') }}" alt="">
+                    </a>
+                    <a href="">
+                        <img src="{{ url('theme://assets/svg/microsoft-store.svg') }}" alt="">
+                    </a>
+                </div>
+                <div class="computer-list">
+                    <a href="">Download for MacOS X</a>
+                    <a href="">Download for Linux 64</a>
+                    <a href="">GitHub releases</a>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
