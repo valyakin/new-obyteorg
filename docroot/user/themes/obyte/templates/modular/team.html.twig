@@ -1,0 +1,24 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+        <div class="text-block text-center">
+            {{ content|raw }}
+        </div>
+        <div class="team-list">
+            {% for member in page.header.team %}
+                <div class="member">
+                    <div class="img-block">
+                        <img src="{{ member.imgLink }}" alt="">
+                    </div>
+                    <div class="text-center">
+                        <div class="name">{{ member.name }}</div>
+                        <div class="role">{{ member.role }}</div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+        <div class="btn-block text-center">
+            <a href="{{ page.header.teamLink }}" class="btn btn-transparent">Show all members</a>
+        </div>
+    </section>
+</section>

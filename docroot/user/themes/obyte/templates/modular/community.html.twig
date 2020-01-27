@@ -1,0 +1,8 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+        <div class="text-block text-center">
+            {{ content|raw }}
+        </div>
+    </section>
+</section>

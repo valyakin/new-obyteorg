@@ -1,5 +1,6 @@
 ---
 title: Community
+class: community-wrap
 ---
 
 # Community and Support

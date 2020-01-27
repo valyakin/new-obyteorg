@@ -14,13 +14,12 @@
         max-width: 440px;
         font-size: 24px;
         line-height: 33px;
-        color: rgba($black, 0.6);
+        color: $text-color;
       }
     }
     .img-block {
       position: relative;
       max-width: 553px;
-      z-index: 2;
       img {
         margin-top: -60px;
         display: block;
@@ -28,6 +27,7 @@
     }
   }
   &.smart-contracts {
+    padding-bottom: 160px;
     .video-block {
       margin-right: 46px;
       flex-grow: 1;
@@ -53,17 +53,16 @@
         font-size: 16px;
         font-family: 'Open Sans', sans-serif;
         line-height: 28px;
-        color: rgba(0, 0, 0, 0.6);
+        color: $text-color;
       }
       p {
         font-size: 12px;
         line-height: 20px;
-        color: rgba($black, 0.6);
+        color: $text-color;
       }
     }
   }
   &.timeline-wrap {
-    padding: 0;
     overflow: hidden;
     h1 {
       margin-bottom: 12px;
@@ -73,7 +72,7 @@
     }
     p {
       font-size: 16px;
-      color: rgba($black, 0.6);
+      color: $text-color;
     }
     .text-block {
       max-width: 670px;
@@ -179,12 +178,160 @@
     }
   }
   &.downloads-wrap {
-
+    padding: 200px 0 0;
+    background: url('../assets/rings.png') 88px top no-repeat;
+    .img-block {
+      margin: 0 90px 0 -110px;
+      flex-shrink: 0;
+      &.mobile {
+        margin-left: 0;
+        display: none;
+      }
+    }
+    h1 {
+      margin: 92px 0 32px;
+      font-size: 36px;
+      font-weight: 300;
+      color: $link-color;
+    }
+    p {
+      margin-bottom: 55px;
+      color: $text-color;
+    }
+    .app-list {
+      margin-bottom: 28px;
+      img {
+        display: block;
+      }
+    }
+    .program-list {
+      margin-bottom: 40px;
+      font-weight: bold;
+    }
+  }
+  &.team-wrap {
+    padding: 100px 0 108px;
+    background-color: $white;
+    &:after {
+      content:'';
+      position: absolute;
+      right: -35%;
+      bottom: -70%;
+      width: 1138px;
+      height: 1138px;
+      background: radial-gradient(100% 100% at 53.92% 0%, #FFFFFF 0%, #4A90E2 100%);
+      mix-blend-mode: normal;
+      opacity: 0.04;
+      border: 4px solid $blue;
+      border-radius: 50%;
+    }
+    .text-block {
+      margin: 0 auto 62px;
+      max-width: 670px;
+    }
+    h1 {
+      margin-bottom: 12px;
+      font-size: 36px;
+      font-weight: 300;
+      color: $link-color;
+    }
+    .team-list {
+      position: relative;
+      margin: 0 0 10px -32px;
+      display: flex;
+      z-index: 1;
+    }
+    .member {
+      margin: 0 0 32px 32px;
+      width: calc(25% - 32px);
+      .img-block {
+        img {
+          display: block;
+          width: 100%;
+        }
+      }
+      .name {
+        font-size: 20px;
+        margin-bottom: 3px;
+      }
+      .role {
+        font-size: 12px;
+      }
+    }
+  }
+  &.exchanges-wrap {
+    position: relative;
+    padding: 125px 0 86px;
+    &:after {
+      content: '';
+      position: absolute;
+      top: 394px;
+      left: -440px;
+      width: 712px;
+      height: 712px;
+      background: rgba(74, 144, 226, 0.8);
+      mix-blend-mode: normal;
+      opacity: 0.02;
+      border: 4px solid #1560BD;
+      border-radius: 50%;
+    }
+    >.container {
+      position: relative;
+      z-index: 1;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      font-weight: 300;
+      color: $link-color;
+    }
+    .text-block {
+      max-width: 725px;
+    }
+    .exchanges-list {
+      margin-left: -32px;
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .exchange-block {
+      margin: 0 0 32px 32px;
+      height: 98px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: calc(25% - 32px);
+      background-color: $white;
+      box-shadow: 0 6px 20px rgba(229, 229, 234, 0.24);
+      border-radius: 10px;
+      img {
+        display: block;
+        max-width: 90%;
+        filter: grayscale(100);
+      }
+      &:hover {
+        img {
+          filter: grayscale(0);
+        }
+      }
+    }
+  }
+  &.community-wrap {
+    .text-block {
+      margin: 0 auto;
+      max-width: 625px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: 36px;
+      font-weight: 300;
+      color: $link-color;
+    }
+    p {
+      margin-bottom: 32px;
+      color: $text-color;
+    }
   }
 }
-
-
-
 
 @media (max-width: $size-sm) {
   .section {
@@ -202,6 +349,28 @@
         .dot {
           left: 50%;
           margin-left: -12px;
+        }
+      }
+    }
+    &.downloads-wrap {
+      padding: 200px 0 0;
+      background: url('../assets/rings.png') 88px top no-repeat;
+      .img-block {
+        display: none;
+        margin-right: 90px;
+        flex-shrink: 0;
+        &.mobile {
+          display: block;
+        }
+      }
+    }
+    &.team-wrap {
+      .team-list {
+        margin: 0;
+        flex-flow: column wrap;
+        width: 100%;
+        .member {
+          margin-left: 0;
         }
       }
     }

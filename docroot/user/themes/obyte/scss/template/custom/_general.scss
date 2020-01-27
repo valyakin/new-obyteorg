@@ -12,10 +12,13 @@ body {
   &.justify-content-between {
     justify-content: space-between;
   }
+  &.flex-column {
+    flex-flow: column;
+  }
 }
 
 .btn {
-  padding: 11px 19px 9px;
+  padding: 8px 19px;
   height: auto;
   line-height: normal;
   background-color: $blue;
@@ -27,12 +30,23 @@ body {
   &:hover {
     color: $blue;
   }
+  &.btn-transparent {
+    color: $link-color;
+    background-color: transparent;
+    border: 1px solid rgba($blue2, 0.2);
+  }
 }
 
 #page-wrapper .btn {
   color: $white;
   &:hover {
     color: $blue;
+  }
+  &.btn-transparent {
+    color: $link-color;
+    &:hover {
+      color: $blue;
+    }
   }
 }
 

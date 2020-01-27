@@ -1,29 +1,36 @@
 {% set grid_size = theme_var('grid-size') %}
 <section class="section downloads-wrap {{ page.header.class}}">
     <section class="container {{ grid_size }}">
-        <div class="d-flex justify-content-between  ">
+        <div class="d-flex justify-content-between">
             <div class="img-block">
-                <img src="{{ url('theme://assets/phone.png') }}" alt="">
+                <img src="{{ url('theme://assets/phone-shadow.png') }}" alt="">
             </div>
             <div class="content-block">
                 <div class="text-block">
                     {{ content|raw }}
                 </div>
-                <div class="app-list d-flex">
-                    <a href="">
-                        <img src="{{ url('theme://assets/svg/app-store.svg') }}" alt="">
-                    </a>
-                    <a href="">
-                        <img src="{{ url('theme://assets/svg/google-play-store.svg') }}" alt="">
-                    </a>
-                    <a href="">
-                        <img src="{{ url('theme://assets/svg/microsoft-store.svg') }}" alt="">
-                    </a>
+                <div class="img-block mobile">
+                    <img src="{{ url('theme://assets/phone.png') }}" alt="">
                 </div>
-                <div class="computer-list">
-                    <a href="">Download for MacOS X</a>
-                    <a href="">Download for Linux 64</a>
-                    <a href="">GitHub releases</a>
+                <div class="app-list d-flex">
+                    {% for program in page.header.programs %}
+                        <a href="{{program.link}}" target="_blank">
+                            <img src="{{ url(program.imgLink) }}" alt="">
+                        </a>
+                    {% endfor %}
+{#                    <a href="">#}
+{#                        <img src="{{ url('theme://assets/svg/microsoft-store.svg') }}" alt="">#}
+{#                    </a>#}
+                </div>
+                <div class="program-list d-flex flex-column">
+                    {% for program in page.header.programs2 %}
+                        <a target="_blank" href="{{ program.link }}">{{program.title}}</a>
+                    {% endfor %}
+                </div>
+                <div class="other-block">
+                    View public transactions on the <a href="https://explorer.obyte.org/">DAG explorer</a>. <br>
+                    Unofficial web wallet (partial functionality): <a href="https://wallet.byteballtalk.com/">wallet.byteballtalk.com</a>
+                    (<a href="https://github.com/gcc2ge/ObyteWebWallet">source code</a>).
                 </div>
             </div>
         </div>
