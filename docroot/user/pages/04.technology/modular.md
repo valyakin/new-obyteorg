@@ -10,6 +10,7 @@ content:
         dir: asc
         custom:
             - _article
+            - _article-list
             - _community
             
 ---

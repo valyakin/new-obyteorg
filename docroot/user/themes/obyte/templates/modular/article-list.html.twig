@@ -1,0 +1,23 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+        <div class="article-list">
+            {% for article in page.header.articles %}
+                <div class="article-block">
+                    <div class="img-block">
+                        <img src="{{ article.articleImg }}" alt="">
+                    </div>
+                    <div class="content-block">
+                        <div class="text-block">
+                            <div class="info-block">
+                                <div class="title">{{ article.articleTitle }}</div>
+                                <div class="text">{{ article.articleText }}</div>
+                            </div>
+                        </div>
+                        <a href="{{ article.articleLink }}" class="more-link">Read more</a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+</section>
