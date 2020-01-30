@@ -1,14 +1,21 @@
-## To watch on scss updates:
+# Obyte Landing
 
+## Configure
+
+Prepare network:
 ```
-cd ./docroot/user/themes/quark
-sass --watch --style compressed scss/theme.scss:css-compiled/theme.min.css
+docker network create --driver=bridge --subnet=192.168.30.0/24 obyte
 ```
 
-## To build scss
+## Build
 
-```
-cd ./docroot/user/themes/quark
-sass --style compressed scss/theme.scss:css-compiled/theme.min.css
-sass scss/theme.scss:css-compiled/theme.css
-```
+yarn rebuild:obyte:landing
+
+## Start
+
+yarn restart:obyte:landing
+
+## Network
+
+Site IP:
+192.168.30.11
