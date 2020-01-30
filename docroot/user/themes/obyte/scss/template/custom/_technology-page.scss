@@ -1,0 +1,38 @@
+.section {
+  &.article-wrap {
+    margin-top: 100px;
+    padding: 145px 0 100px;
+    .article-img-block {
+      position: absolute;
+      top: 0;
+      right: 0;
+      img {
+        display: block;
+      }
+    }
+    .header-block {
+      max-width: 550px;
+      h1 {
+        margin: 0 0 16px;
+        font-size: 48px;
+        line-height: 65px;
+        color: $link-color;
+        font-weight: 300;
+      }
+      h3 {
+        margin: 0 0 80px;
+        color: $text-color;
+        font-size: 24px;
+        line-height: 33px;
+      }
+    }
+    .content-block {
+      max-width: 670px;
+    }
+  }
+}
+
+
+@media (max-width: $size-sm) {
+
+}

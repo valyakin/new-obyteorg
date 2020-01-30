@@ -4,12 +4,12 @@ onpage_menu: false
 body_classes: ''
 
 content:
-    items: '@self.technology'
+    items: '@self.modular'
     order:
         by: default
         dir: asc
         custom:
-            - _top
+            - _article
             - _community
             
 ---

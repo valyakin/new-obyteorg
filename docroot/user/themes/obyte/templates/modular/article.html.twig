@@ -1,0 +1,11 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section {{ page.header.class}}">
+    <section class="container {{ grid_size }}">
+        <div class="content-block">
+            {{ content|raw }}
+        </div>
+        <div class="article-img-block">
+            <img src="{{ url('theme://assets/article1.png') }}" alt="">
+        </div>
+    </section>
+</section>

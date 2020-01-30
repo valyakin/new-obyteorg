@@ -9,45 +9,76 @@
         </div>
         <div class="menu-list">
             <div class="menu-block">
-                <div class="title">{{ page.header.footerMenuOne }}</div>
+                <div class="title">Product</div>
                 <div class="category-list">
-                    {% for subLinks in page.header.product %}
-                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
-                    {% endfor %}
+                    <a href="#">Download Byteball</a>
+                    <a href="">Getting Started</a>
+                    <a href="">Explorer</a>
+                    <a href="">Features</a>
                 </div>
             </div>
             <div class="menu-block">
-                <div class="title">{{ page.header.footerMenuTwo }}</div>
+                <div class="title">Company</div>
                 <div class="category-list">
-                    {% for subLinks in page.header.company %}
-                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
-                    {% endfor %}
+                    <a href="">About Us</a>
+                    <a href="">Contact</a>
+                    <a href="">Blog</a>
                 </div>
             </div>
             <div class="menu-block">
-                <div class="title">{{ page.header.footerMenuThree }}</div>
+                <div class="title">Documents</div>
                 <div class="category-list">
-                    {% for subLinks in page.header.documents %}
-                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
-                    {% endfor %}
+                    <a href="">White Papers</a>
+                    <a href="">Wiki</a>
+                    <a href="">Media Kit</a>
                 </div>
             </div>
             <div class="menu-block">
-                <div class="title">{{ page.header.footerMenuFour }}</div>
+                <div class="title">Terms & Policy</div>
                 <div class="category-list">
-                    {% for subLinks in page.header.terms %}
-                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
-                    {% endfor %}
+                    <a href="">Terms of Service</a>
+                    <a href="">Privacy Statement</a>
+                    <a href="">Security</a>
                 </div>
             </div>
         </div>
         <div class="community-list">
-            {% for community in page.header.community %}
-                <a class="community-block" href="{{ community.link }}">
-                    <img src="{{ community.icon }}" alt="">
-                    <img class="hover" src="{{ community.iconHover }}" alt="">
-                </a>
-            {% endfor %}
+            <a class="community-block" href="http://discord.obyte.org/">
+                <img src="/user/themes/obyte/assets/svg/social-icons/discord.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/discord.svg" alt="">
+            </a>
+            <a class="community-block" href="https://mp.weixin.qq.com/s/JB0_MlK6w--D6pO5zPHAQQ">
+                <img src="/user/themes/obyte/assets/svg/social-icons/wechat.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/wechat.svg" alt="">
+            </a>
+            <a class="community-block" href="https://t.me/obyteorg">
+                <img src="/user/themes/obyte/assets/svg/social-icons/telegram.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/telegram.svg" alt="">
+            </a>
+            <a class="community-block" href="https://medium.com">
+                <img src="/user/themes/obyte/assets/svg/social-icons/medium.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/medium.svg" alt="">
+            </a>
+            <a class="community-block" href="https://www.reddit.com/r/obyte/">
+                <img src="/user/themes/obyte/assets/svg/social-icons/reddit.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/reddit.svg" alt="">
+            </a>
+            <a class="community-block" href="https://bitcointalk.org/index.php?topic=1608859.0">
+                <img src="/user/themes/obyte/assets/svg/social-icons/bitcoin.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/bitcoin.svg" alt="">
+            </a>
+            <a class="community-block" href="https://twitter.com/ObyteOrg">
+                <img src="/user/themes/obyte/assets/svg/social-icons/twitter.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/twitter.svg" alt="">
+            </a>
+            <a class="community-block" href="https://www.facebook.com/obyte.org">
+                <img src="/user/themes/obyte/assets/svg/social-icons/facebook.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/facebook.svg" alt="">
+            </a>
+            <a class="community-block" href="https://www.youtube.com/channel/UCYAjbxT5zHfeTtXe_hr9Gxg/">
+                <img src="/user/themes/obyte/assets/svg/social-icons/youtube.svg" alt="">
+                <img class="hover" src="/user/themes/obyte/assets/svg/social-icons/hover/youtube.svg" alt="">
+            </a>
         </div>
         <div class="copyright">© 2019 Obyte. All Rights Reserved</div>
     </section>

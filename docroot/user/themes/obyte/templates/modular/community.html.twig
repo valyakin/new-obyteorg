@@ -1,16 +1,1 @@
-{% set grid_size = theme_var('grid-size') %}
-<section class="section {{ page.header.class}}">
-    <section class="container {{ grid_size }}">
-        <div class="text-block text-center">
-            {{ content|raw }}
-        </div>
-        <div class="community-list">
-            {% for community in page.header.community %}
-                <a class="community-block" href="{{ community.link }}">
-                    <img src="{{ community.icon }}" alt="">
-                    <img class="hover" src="{{ community.iconHover }}" alt="">
-                </a>
-            {% endfor %}
-        </div>
-    </section>
-</section>
+{% include 'partials/community.html.twig' %}

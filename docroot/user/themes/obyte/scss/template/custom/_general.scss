@@ -18,15 +18,15 @@ body {
 }
 
 .btn {
-  padding: 8px 19px;
+  padding: 12px 19px;
   height: auto;
   line-height: normal;
   background-color: $blue;
-  border-radius: 20px;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
   color: $white;
   text-decoration: none;
+  border-radius: 30px;
   &:hover {
     color: $blue;
   }
@@ -58,5 +58,5 @@ body {
 }
 
 h1 {
-
+  font-family: 'Open Sans', sans-serif;
 }

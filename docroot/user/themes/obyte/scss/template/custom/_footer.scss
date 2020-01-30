@@ -46,14 +46,18 @@
   .community-list {
     margin-bottom: 16px;
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
   }
   .community-block {
     margin: 0 8px 8px;
+    flex-shrink: 0;
     width: 32px;
     height: 32px;
     img {
       display: block;
+      border-radius: 50%;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
       &.hover {
         display: none;
       }
