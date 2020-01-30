@@ -1,9 +1,13 @@
+#page-wrapper {
+  overflow: hidden;
+}
 .section {
   &.modular-hero {
+    padding: 100px 0 170px;
     .text-block {
       max-width: 550px;
       h1 {
-        margin-bottom: 16px;
+        margin: 147px 0 16px;
         color: $link-color;
         font-size: 48px;
         line-height: 65px;
@@ -29,7 +33,8 @@
   &.smart-contracts {
     padding-bottom: 160px;
     .video-block {
-      margin-right: 46px;
+      max-width: 700px;
+      margin-right: 45px;
       flex-grow: 1;
       box-shadow: 0 10px 30px rgba(74,144,226,0.2);
       img {
@@ -38,8 +43,7 @@
       }
     }
     .text-block {
-      max-width: 29.4%;
-      flex-shrink: 0;
+      flex: 1;
       h1 {
         margin-bottom: 12px;
         color: $link-color;
@@ -65,7 +69,7 @@
   &.timeline-wrap {
     overflow: hidden;
     h1 {
-      margin-bottom: 12px;
+      margin: 0 0 12px;
       font-size: 36px;
       font-family: 'Open Sans', sans-serif;
       color: $link-color;
@@ -112,7 +116,7 @@
     }
 
     .swiper-wrapper {
-      margin-bottom: 72px;
+      margin-bottom: 42px;
     }
 
     .swiper-container {
@@ -178,8 +182,8 @@
     }
   }
   &.downloads-wrap {
-    padding: 200px 0 0;
-    background: url('../assets/rings.png') 88px top no-repeat;
+    padding: 172px 0 70px;
+    background: url('../assets/rings.png') 88px 12px no-repeat;
     .img-block {
       margin: 0 90px 0 -110px;
       flex-shrink: 0;
@@ -210,7 +214,7 @@
     }
   }
   &.team-wrap {
-    padding: 100px 0 108px;
+    padding: 100px 0 106px;
     background-color: $white;
     &:after {
       content:'';
@@ -230,7 +234,7 @@
       max-width: 670px;
     }
     h1 {
-      margin-bottom: 12px;
+      margin: 0 0 12px;
       font-size: 36px;
       font-weight: 300;
       color: $link-color;
@@ -261,7 +265,7 @@
   }
   &.exchanges-wrap {
     position: relative;
-    padding: 125px 0 86px;
+    padding: 125px 0 54px;
     &:after {
       content: '';
       position: absolute;
@@ -338,10 +342,13 @@
     }
     .community-block {
       margin: 0 8px;
+      flex-shrink: 0;
       width: 48px;
       height: 48px;
       img {
         display: block;
+        border-radius: 50%;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
         &.hover {
           display: none;
         }
