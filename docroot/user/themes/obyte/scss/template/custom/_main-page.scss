@@ -316,6 +316,8 @@
     }
   }
   &.community-wrap {
+    padding: 72px 0 92px;
+    background: url('../assets/community-bg.png') center / auto 100% repeat-x;
     .text-block {
       margin: 0 auto;
       max-width: 625px;
@@ -329,6 +331,58 @@
     p {
       margin-bottom: 32px;
       color: $text-color;
+    }
+    .community-list {
+      display: flex;
+      justify-content: center;
+    }
+    .community-block {
+      margin: 0 8px;
+      width: 48px;
+      height: 48px;
+      img {
+        display: block;
+        &.hover {
+          display: none;
+        }
+      }
+      &:hover {
+        img {
+          display: none;
+          &.hover {
+            display: block;
+          }
+        }
+        .icon {
+          &.icon-discord {
+
+          }
+          &.icon-weechat {
+
+          }
+          &.icon-telegram {
+
+          }
+          &.icon-medium {
+
+          }
+          &.icon-reddit {
+
+          }
+          &.icon-bitcoin {
+
+          }
+          &.icon-twitter {
+
+          }
+          &.icon-facebook {
+
+          }
+          &.icon-youtube {
+
+          }
+        }
+      }
     }
   }
 }

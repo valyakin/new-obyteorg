@@ -1,5 +1,54 @@
-<section id="footer" class="section bg-gray">
+<section id="footer" class="section">
     <section class="container {{ grid_size }}">
-        <p>© 2019 Obyte. All Rights Reserved</p>
+        <div class="flex-logo-block">
+            <div class="line"></div>
+            <a href="/" class="logo">
+                <img src="{{ url('theme://assets/svg/obyte_logo.svg')  }}" />
+            </a>
+            <div class="line"></div>
+        </div>
+        <div class="menu-list">
+            <div class="menu-block">
+                <div class="title">{{ page.header.footerMenuOne }}</div>
+                <div class="category-list">
+                    {% for subLinks in page.header.product %}
+                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="menu-block">
+                <div class="title">{{ page.header.footerMenuTwo }}</div>
+                <div class="category-list">
+                    {% for subLinks in page.header.company %}
+                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="menu-block">
+                <div class="title">{{ page.header.footerMenuThree }}</div>
+                <div class="category-list">
+                    {% for subLinks in page.header.documents %}
+                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="menu-block">
+                <div class="title">{{ page.header.footerMenuFour }}</div>
+                <div class="category-list">
+                    {% for subLinks in page.header.terms %}
+                        <a href="{{ subLinks.link }}">{{ subLinks.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="community-list">
+            {% for community in page.header.community %}
+                <a class="community-block" href="{{ community.link }}">
+                    <img src="{{ community.icon }}" alt="">
+                    <img class="hover" src="{{ community.iconHover }}" alt="">
+                </a>
+            {% endfor %}
+        </div>
+        <div class="copyright">© 2019 Obyte. All Rights Reserved</div>
     </section>
 </section>
