@@ -1,5 +1,5 @@
 {% set grid_size = theme_var('grid-size') %}
-<section class="section downloads-wrap {{ page.header.class}}">
+<section class="section {{ page.header.class}}">
     <section class="container {{ grid_size }}">
         <div class="d-flex justify-content-between">
             <div class="img-block">
@@ -10,7 +10,9 @@
                     {{ content|raw }}
                 </div>
                 <div class="img-block mobile">
-                    <img src="{{ url('theme://assets/phone.png') }}" alt="">
+                    <div class="shadow-block">
+                        <img src="{{ url('theme://assets/phone.png') }}" alt="">
+                    </div>
                 </div>
                 <div class="app-list d-flex">
                     {% for program in page.header.programs %}
@@ -18,9 +20,6 @@
                             <img src="{{ url(program.imgLink) }}" alt="">
                         </a>
                     {% endfor %}
-{#                    <a href="">#}
-{#                        <img src="{{ url('theme://assets/svg/microsoft-store.svg') }}" alt="">#}
-{#                    </a>#}
                 </div>
                 <div class="program-list d-flex flex-column">
                     {% for program in page.header.programs2 %}

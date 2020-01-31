@@ -106,4 +106,33 @@
   }
 }
 
+@media (max-width: $size-sm) {
+  #footer {
+    padding: 110px 74px;
+    .menu-list {
+      margin: 0 0 32px -32px;
+      flex-flow: row wrap;
+    }
+    .menu-block {
+      margin-left: 32px;
+      width: calc(50% - 32px);
+      .title {
+        margin-bottom: 24px;
+        font-size: 20px;
+        font-weight: normal;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+    .community-list {
+      margin-bottom: 16px;
+      flex-flow: row wrap;
+    }
+    .community-block {
+
+    }
+  }
+}
+
 

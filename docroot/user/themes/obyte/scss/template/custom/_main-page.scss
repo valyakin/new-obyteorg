@@ -117,6 +117,7 @@
     }
 
     .swiper-wrapper {
+      display: flex;
       margin-bottom: 42px;
     }
 
@@ -124,6 +125,8 @@
       overflow: visible;
     }
     .swiper-slide {
+      flex-shrink: 0;
+      justify-content: flex-start;
       margin-top: 42px;
       padding-top: 40px;
       position: relative;
@@ -472,8 +475,8 @@
       }
       .swiper-slide {
         margin-top: 0;
-        padding: 30px 0 0;
-        text-align: center;
+        padding: 30px 16px 0;
+        justify-content: center;
         width: 45%;
         .dot {
           left: 50%;
@@ -501,7 +504,7 @@
       }
     }
     &.downloads-wrap {
-      padding: 200px 0 0;
+      padding: 80px 0;
       background: url('../assets/rings.png') 88px top no-repeat;
       .img-block {
         display: none;
@@ -509,17 +512,124 @@
         flex-shrink: 0;
         &.mobile {
           display: block;
+          margin: 0 0 32px;
+          text-align: center;
+          .shadow-block {
+            position: relative;
+            display: inline-block;
+            &:before {
+              content: '';
+              position: absolute;
+              top: 0;
+              bottom: 0;
+              left: 3px;
+              right: 2px;
+              border-radius: 54px;
+              overflow: hidden;
+              box-shadow: 0 4px 42px 5px rgba(0,0,0,.25);
+            }
+          }
+          img {
+            display: block;
+            margin: 0 auto;
+          }
         }
+      }
+      h1 {
+        margin: 0 0 26px;
+        font-size: 24px;
+        font-weight: normal;
+      }
+      p {
+        margin-bottom: 30px;
+      }
+      .app-list {
+        margin-bottom: 15px;
+        flex-flow: column wrap;
+        align-items: center;
+        a {
+          flex-shrink: 0;
+          margin-bottom: 15px;
+        }
+        img {
+          display: block;
+          width: 210px;
+        }
+      }
+      .program-list {
+        margin-bottom: 27px;
+        align-items: center;
+        font-size: 16px;
+      }
+      .other-block {
+        text-align: center;
       }
     }
     &.team-wrap {
+      padding: 60px 0;
+      &:after {
+        right: -216%;
+        bottom: -23%;
+      }
+      h1 {
+        margin: 0 0 24px;
+        font-size: 24px;
+        font-weight: normal;
+      }
+      p {
+        font-size: 16px;
+      }
       .team-list {
-        margin: 0;
+        margin: 0 0 32px;
         flex-flow: column wrap;
         width: 100%;
         .member {
+          width: auto;
           margin-left: 0;
+          img {
+            margin: 0 auto;
+            display: block;
+            max-width: 100%;
+            width: auto;
+          }
         }
+      }
+    }
+    &.exchanges-wrap {
+      padding: 80px 0;
+      h1 {
+        margin: 0 0 24px;
+        font-size: 24px;
+        font-weight: normal;
+      }
+      p {
+        margin-bottom: 24px;
+        font-size: 16px;
+      }
+      .exchanges-list {
+        margin-left: -12px;
+        .exchange-block {
+          margin: 0 0 12px 12px;
+          width: calc(50% - 12px);
+        }
+      }
+    }
+    &.community-wrap {
+      padding: 36px 0;
+      h1 {
+        margin-bottom: 24px;
+        font-size: 24px;
+        font-weight: normal;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 32px;
+      }
+      .community-list {
+        flex-flow: row wrap;
+      }
+      .community-block {
+        margin-bottom: 8px;
       }
     }
   }
