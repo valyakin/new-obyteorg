@@ -18,6 +18,7 @@
         max-width: 440px;
         font-size: 24px;
         line-height: 33px;
+        font-weight: normal;
         color: $text-color;
       }
     }
@@ -396,7 +397,73 @@
 
 @media (max-width: $size-sm) {
   .section {
+    &.modular-hero {
+      padding: 100px 0 58px;
+      .flex-block {
+        flex-flow: row wrap;
+        .text-block,
+        .img-block {
+          max-width: inherit;
+        }
+        .text-block {
+          h1 {
+            margin: 32px 0 12px;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: normal;
+          }
+          p {
+            margin-bottom: 25px;
+            max-width: inherit;
+            font-size: 20px;
+            line-height: 26px;
+          }
+        }
+        .img-block {
+          img {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+    &.smart-contracts {
+      padding-bottom: 74px;
+      .flex-block {
+        flex-flow: row wrap;
+        .text-block {
+          order: 1;
+          h1 {
+            margin: 0 0 24px;
+            font-size: 24px;
+            line-height: 32px;
+            font-weight: normal;
+          }
+          h4 {
+            margin: 0 0 24px;
+          }
+          p {
+            font-size: 13px;
+            line-height: 20px;
+            margin-bottom: 32px;
+          }
+        }
+        .video-block {
+          margin-right: 0;
+          max-width: inherit;
+          order: 2;
+        }
+      }
+    }
     &.timeline-wrap {
+      h1 {
+        margin-bottom: 24px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: normal;
+      }
+      .text-block {
+        margin-bottom: 32px;
+      }
       .swiper-container {
         margin: 0;
       }
@@ -404,12 +471,32 @@
         justify-content: center;
       }
       .swiper-slide {
+        margin-top: 0;
         padding: 30px 0 0;
         text-align: center;
-        width: 150px;
+        width: 45%;
         .dot {
           left: 50%;
           margin-left: -12px;
+        }
+      }
+      .left-grad,
+      .right-grad {
+        position: absolute;
+        width: 80px;
+        height: 100%;
+      }
+      .left-grad {
+        left: 0;
+        .grad {
+          background: linear-gradient(to right, #f7f7f7 0%, rgba(#f7f7f7, 0) 100%);
+
+        }
+      }
+      .right-grad {
+        right: 0;
+        .grad {
+          background: linear-gradient(to left, #f7f7f7 0%, rgba(#f7f7f7, 0) 100%);
         }
       }
     }
