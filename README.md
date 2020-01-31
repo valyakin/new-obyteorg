@@ -1,14 +1,34 @@
-## To watch on scss updates:
+# Obyte Landing
+
+## Clone & Install
 
 ```
-cd ./docroot/user/themes/quark
-sass --watch --style compressed scss/theme.scss:css-compiled/theme.min.css
+git clone git@github.com:ipavlenko/org.obyte.landing.git
+./bin/grav install
+chown -R www-data.www-data ./docroot/cache
+chown -R www-data.www-data ./docroot/user
 ```
 
-## To build scss
+## Configure
+
+Prepare network:
+```
+docker network create --driver=bridge --subnet=192.168.30.0/24 obyte
+```
+
+## Build
 
 ```
-cd ./docroot/user/themes/quark
-sass --style compressed scss/theme.scss:css-compiled/theme.min.css
-sass scss/theme.scss:css-compiled/theme.css
+yarn rebuild:obyte:landing
 ```
+
+## Start
+
+```
+yarn restart:obyte:landing
+```
+
+## Network
+
+Site IP:
+192.168.30.11
