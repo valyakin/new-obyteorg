@@ -108,14 +108,26 @@
 
 @media (max-width: $size-sm) {
   #footer {
-    padding: 110px 74px;
+    padding: 110px 0 74px;
+    .flex-logo-block {
+      justify-content: flex-start;
+      .line {
+        display: none;
+      }
+      .logo {
+        margin: 0;
+      }
+    }
     .menu-list {
       margin: 0 0 32px -32px;
       flex-flow: row wrap;
     }
     .menu-block {
       margin-left: 32px;
+      margin-right: 0;
       width: calc(50% - 32px);
+      max-width: inherit;
+      min-width: 130px;
       .title {
         margin-bottom: 24px;
         font-size: 20px;
