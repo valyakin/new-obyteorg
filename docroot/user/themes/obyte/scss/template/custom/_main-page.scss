@@ -232,6 +232,7 @@
       opacity: 0.04;
       border: 4px solid $blue;
       border-radius: 50%;
+      z-index: 0;
     }
     .text-block {
       margin: 0 auto 62px;
@@ -247,6 +248,10 @@
       position: relative;
       margin: 0 0 10px -32px;
       display: flex;
+      z-index: 1;
+    }
+    .btn-block {
+      position: relative;
       z-index: 1;
     }
     .member {
@@ -324,13 +329,13 @@
     }
   }
   &.community-wrap {
-    padding: 72px 0 92px;
+    padding: 72px 0 84px;
     background: url('../assets/community-bg.png') center / auto 100% repeat-x;
     .text-block {
       margin: 0 auto;
       max-width: 625px;
     }
-    h1 {
+    h2 {
       margin: 0 0 12px;
       font-size: 36px;
       font-weight: 300;
@@ -342,10 +347,11 @@
     }
     .community-list {
       display: flex;
+      flex-flow: row wrap;
       justify-content: center;
     }
     .community-block {
-      margin: 0 8px;
+      margin: 0 8px 8px;
       flex-shrink: 0;
       width: 48px;
       height: 48px;
@@ -614,7 +620,7 @@
         }
       }
     }
-    &.community-wrap {
+    &.link {
       padding: 36px 0;
       h1 {
         margin-bottom: 24px;
@@ -630,6 +636,14 @@
       }
       .community-block {
         margin-bottom: 8px;
+      }
+    }
+    &.community-wrap {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 16px;
       }
     }
   }
