@@ -40,6 +40,6 @@ community:
     link: https://www.youtube.com/channel/UCYAjbxT5zHfeTtXe_hr9Gxg/
 ---
 
-# Community and Support
+## Community and Support
 
 Computer users and programmers have become so accustomed to using Windows, even for the changing capabilities and the appearances of the graphical.
