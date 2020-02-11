@@ -9,7 +9,24 @@
                 </div>
             </div>
             <div class="img-block">
-                <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
+                <svg>
+                    <title>Obyte</title>
+                    <g id="scene-1">
+                        <image xlink:href="../../user/themes/obyte/assets/animation/scene1.svg" />
+                    </g>
+                    <animateTransform
+                            attributeName="transform"
+                            attributeType="XML"
+                            xlink:href="#scene-1"
+                            type="translate"
+                            from="0, 0"
+                            to="0, -600"
+                            begin="13s"
+                            dur="0.5s"
+                            fill="freeze"
+                    />
+                </svg>
+{#                <img src="{{ url('theme://assets/hero-image.png') }}" alt="">#}
             </div>
         </div>
     </section>
