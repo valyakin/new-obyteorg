@@ -8,26 +8,23 @@
                     <a href="" class="btn">Download wallet</a>
                 </div>
             </div>
-            <div class="img-block">
-                <svg>
-                    <title>Obyte</title>
-                    <g id="scene-1">
-                        <image xlink:href="../../user/themes/obyte/assets/animation/scene1.svg" />
-                    </g>
-                    <animateTransform
-                            attributeName="transform"
-                            attributeType="XML"
-                            xlink:href="#scene-1"
-                            type="translate"
-                            from="0, 0"
-                            to="0, -600"
-                            begin="13s"
-                            dur="0.5s"
-                            fill="freeze"
-                    />
-                </svg>
-{#                <img src="{{ url('theme://assets/hero-image.png') }}" alt="">#}
-            </div>
+            <div class="img-block" id="clip-container"></div>
+            <script>
+            window.addEventListener('load', () => {
+              const container = document.getElementById('clip-container')
+              container.innerHTML = `
+                <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene1.svg">
+                   <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
+                </object>
+              `
+              container.addEventListener('click', () => {
+                container.innerHTML = `
+                  <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene1.svg">
+                     <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
+                  </object>
+                `
+              })
+            })</script>
         </div>
     </section>
 {#    <i id="to-start" class="pulse fa fa-angle-down"></i> #}

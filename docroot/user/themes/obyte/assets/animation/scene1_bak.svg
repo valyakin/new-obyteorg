@@ -1467,7 +1467,7 @@
                 id="ScanLight"
                 fill="#F52549"
                 style="mix-blend-mode: overlay;"
-                transform="translinateZ(0)"
+                transform="translateZ(0)"
               >
                 <animate
                   attributeType="xml"
