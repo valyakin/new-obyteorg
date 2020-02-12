@@ -415,7 +415,7 @@
               fill="#F52549"
               style="mix-blend-mode: soft-light;"
           />
-          <g fill="none" transform="translate(290, 140)" id="group-light1-scan-ellipse-translate">
+          <g fill="none" transform="translate(290, 140)" id="group-light-scan-ellipse-translate">
               <g transform="scale(0, 0)" id="group-light-scan-ellipse-scale">
                   <ellipse
                       id="ScanRing"
@@ -450,18 +450,18 @@
         M 190, 275 L 265, 140 A 50, 100, 0, 0, 1, 315, 140 Z;
         M 190, 275 L 290, 165 A 50, 100, 0, 0, 1, 290, 165 Z
       "
+      begin="0.5s"
       fill="freeze"
       restart="always"
-      begin="0.5s"
     />
     <animateTransform
       attributeName="transform"
       attributeType="XML"
-      xlink:href="#group-light1-scan-ellipse-translate"
+      xlink:href="#group-light-scan-ellipse-translate"
       type="translate"
       from="290, 115"
       to="290, 165"
-      begin="load+0.5s"
+      begin="0.5s"
       dur="1.5s"
       fill="freeze"
       restart="always"
@@ -653,7 +653,7 @@
     <animateTransform
       attributeName="transform"
       attributeType="XML"
-      xlink:href="#group-light1-scan-ellipse-translate"
+      xlink:href="#group-light-scan-ellipse-translate"
       type="translate"
       from="290, 115"
       to="290, 165"
@@ -838,7 +838,7 @@
     <animateTransform
       attributeName="transform"
       attributeType="XML"
-      xlink:href="#group-light1-scan-ellipse-translate"
+      xlink:href="#group-light-scan-ellipse-translate"
       type="translate"
       from="290, 115"
       to="290, 165"
