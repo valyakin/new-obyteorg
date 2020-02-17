@@ -121,9 +121,9 @@
           <polygon fill="#FF686F" points="9.85871319 30.6071839 14.2484076 33.3052363 19.5005937 32.6120395"></polygon>
         </symbol>
     </defs>
-    <g transform="translate(-90, 200)">
-        <g transform="scale(0.8, 0.8)">
-            <g id="group-train" transform="translate(0, 0)">
+    <g transform="translate(-210, 240)" id="root" opacity="0">
+        <g>
+            <g id="group-train" transform="translate(640, -280)">
                 <g id="group-cube5" opacity="1" transform="translate(640, -360)">
                     <g>
                         <image id="group-cube5-live" xlink:href="./scene2-cube.svg" />
@@ -1140,6 +1140,17 @@
     />
 
     <!-- Train animations -->
+    <animate
+      attributeType="XML"
+      attributeName="opacity"
+      xlink:href="#root"
+      type="translate"
+      from="0"
+      to="1"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
     <animateTransform
       id="tick1"
       attributeName="transform"
@@ -1346,6 +1357,16 @@
       to="320, -180"
       begin="tick2.end + 17s"
       dur="0.001s"
+      fill="freeze"
+    />
+    <animate
+      attributeName="opacity"
+      attributeType="XML"
+      xlink:href="#root"
+      from="1"
+      to="0"
+      begin="tick3.end + 17s"
+      dur="0.25s"
       fill="freeze"
     />
 </svg>

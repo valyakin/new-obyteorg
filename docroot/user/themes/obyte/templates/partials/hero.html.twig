@@ -12,18 +12,32 @@
             <script>
             window.addEventListener('load', () => {
               const container = document.getElementById('clip-container')
-              container.innerHTML = `
+              const scene1 = `
                 <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene1.svg">
                    <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
                 </object>
               `
+              const scene2 = `
+                <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene2.svg">
+                   <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
+                </object>
+              `
+              function reload () {
+                container.innerHTML = scene1
+                if (this.scene2Timeout != null) {
+                  clearTimeout(this.scene2Timeout)
+                  this.scene2Timeout = null
+                }
+                this.scene2Timeout = setTimeout(() => {
+                  container.innerHTML = scene2
+                }, 12000)
+              }
+
               container.addEventListener('click', () => {
-                container.innerHTML = `
-                  <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene1.svg">
-                     <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
-                  </object>
-                `
+                reload()
               })
+
+              reload()
             })</script>
         </div>
     </section>
