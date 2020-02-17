@@ -332,6 +332,9 @@
                 </g>
             </g>
         </g>
+        <g transform="translate(175, 80)" opacity="0" id="group-ball-in">
+            <use xlink:href="#symbol-ball" x="0" y="0" />
+        </g>
         <g id="Scan">
             <path
                 id="path-light-scan"
@@ -356,4 +359,745 @@
           <polygon id="polygon-cross" opacity="0" fill="#FF8871" fill-rule="nonzero" points="293.478893 223.946862 295.963666 225.627905 289.520083 235.151862 293.634956 239.066955 291.566873 241.240208 287.815083 237.670862 283.324856 244.309508 280.840083 242.628465 285.612083 235.573862 281.2215 231.395477 283.289583 229.222223 287.316083 233.054862"/>
         </g>
     </g>
+
+    <!-- First Sequence -->
+    <animate
+      id="FirstSequence"
+      attributeType="XML"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="0"
+      to="1"
+      begin="indefinite"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, -20"
+      to="175, 82"
+      dur="0.5s"
+      begin="FirstSequence.end + 0s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-light-scan"
+      dur="0.25s"
+      from="0"
+      to="1"
+      fill="freeze"
+      restart="always"
+      begin="FirstSequence.end + 0s"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-light-scan"
+      dur="1.5s"
+      values="
+        M 258, 187 L 191, 81 A 50, 100, 0, 0, 1, 191, 81 Z;
+        M 258, 187 L 175, 98 A 50, 100, 0, 0, 1, 207, 98 Z;
+        M 258, 187 L 191, 115 A 50, 100, 0, 0, 1, 191, 115 Z
+      "
+      fill="freeze"
+      restart="always"
+      begin="FirstSequence.end + 0.5s"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-translate"
+      type="translate"
+      from="191, 80"
+      to="191, 116"
+      begin="FirstSequence.end + 0.5s"
+      dur="1.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="0, 0"
+      to="1, 1"
+      begin="FirstSequence.end + 0.5s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="1, 1"
+      to="0, 0"
+      begin="FirstSequence.end + 1.25s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#container-level"
+      type="translate"
+      from="0, 0"
+      to="0, 120"
+      begin="FirstSequence.end + 1.25s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, 0"
+      to="0, -60"
+      begin="FirstSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 0"
+      to="0, 60"
+      begin="FirstSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, 82"
+      to="175, 162"
+      begin="FirstSequence.end + 3s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="1"
+      begin="FirstSequence.end + 2.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="0"
+      begin="FirstSequence.end + 3s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, -60"
+      to="0, 0"
+      begin="FirstSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 60"
+      to="0, 0"
+      begin="FirstSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      dur="0.001s"
+      from="1"
+      to="0"
+      begin="FirstSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-stub"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="FirstSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+
+    <!-- Second Sequence -->
+    <animate
+      id="SecondSequence"
+      attributeType="XML"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="0"
+      to="1"
+      begin="FirstSequence.end + 4s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, -20"
+      to="175, 82"
+      dur="0.5s"
+      begin="SecondSequence.end + 0s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-light-scan"
+      dur="0.25s"
+      from="0"
+      to="1"
+      fill="freeze"
+      restart="always"
+      begin="SecondSequence.end + 0s"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-light-scan"
+      dur="1.5s"
+      values="
+        M 258, 187 L 191, 81 A 50, 100, 0, 0, 1, 191, 81 Z;
+        M 258, 187 L 175, 98 A 50, 100, 0, 0, 1, 207, 98 Z;
+        M 258, 187 L 191, 115 A 50, 100, 0, 0, 1, 191, 115 Z
+      "
+      fill="freeze"
+      restart="always"
+      begin="SecondSequence.end + 0.5s"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-translate"
+      type="translate"
+      from="191, 80"
+      to="191, 116"
+      begin="SecondSequence.end + 0.5s"
+      dur="1.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="0, 0"
+      to="1, 1"
+      begin="SecondSequence.end + 0.5s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="1, 1"
+      to="0, 0"
+      begin="SecondSequence.end + 1.25s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#container-level"
+      type="translate"
+      from="0, 120"
+      to="0, 60"
+      begin="SecondSequence.end + 1.25s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, 0"
+      to="0, -60"
+      begin="SecondSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 0"
+      to="0, 60"
+      begin="SecondSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, 82"
+      to="175, 162"
+      begin="SecondSequence.end + 3s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="1"
+      begin="SecondSequence.end + 2.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="0"
+      begin="SecondSequence.end + 3s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, -60"
+      to="0, 0"
+      begin="SecondSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 60"
+      to="0, 0"
+      begin="SecondSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      dur="0.001s"
+      from="1"
+      to="0"
+      begin="SecondSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-stub"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="SecondSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+
+    <!-- Third Sequence -->
+    <animate
+      id="ThirdSequence"
+      attributeType="XML"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="0"
+      to="1"
+      begin="SecondSequence + 4s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, -20"
+      to="175, 82"
+      dur="0.5s"
+      begin="ThirdSequence.end + 0s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-light-scan"
+      dur="0.25s"
+      from="0"
+      to="1"
+      fill="freeze"
+      restart="always"
+      begin="ThirdSequence.end + 0s"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-light-scan"
+      dur="1.5s"
+      values="
+        M 258, 187 L 191, 81 A 50, 100, 0, 0, 1, 191, 81 Z;
+        M 258, 187 L 175, 98 A 50, 100, 0, 0, 1, 207, 98 Z;
+        M 258, 187 L 191, 115 A 50, 100, 0, 0, 1, 191, 115 Z
+      "
+      fill="freeze"
+      restart="always"
+      begin="ThirdSequence.end + 0.5s"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-translate"
+      type="translate"
+      from="191, 80"
+      to="191, 116"
+      begin="ThirdSequence.end + 0.5s"
+      dur="1.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="0, 0"
+      to="1, 1"
+      begin="ThirdSequence.end + 0.5s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="1, 1"
+      to="0, 0"
+      begin="ThirdSequence.end + 1.25s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#container-level"
+      type="translate"
+      from="0, 60"
+      to="0, 30"
+      begin="ThirdSequence.end + 1.25s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, 0"
+      to="0, -60"
+      begin="ThirdSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 0"
+      to="0, 60"
+      begin="ThirdSequence.end + 2.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, 82"
+      to="175, 162"
+      begin="ThirdSequence.end + 3s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="1"
+      begin="ThirdSequence.end + 2.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-check"
+      dur="0.001s"
+      to="0"
+      begin="ThirdSequence.end + 3s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-top-door"
+      type="translate"
+      from="0, -60"
+      to="0, 0"
+      begin="ThirdSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#polygon-bottom-door"
+      type="translate"
+      from="0, 60"
+      to="0, 0"
+      begin="ThirdSequence.end + 3.5s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      dur="0.001s"
+      from="1"
+      to="0"
+      begin="ThirdSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-stub"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="ThirdSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+
+    <!-- Fourth Sequence -->
+    <animate
+      id="FourthSequence"
+      attributeType="XML"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="0"
+      to="1"
+      begin="ThirdSequence.end + 4s"
+      dur="0.001s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, -20"
+      to="175, 82"
+      dur="0.5s"
+      begin="FourthSequence.end + 0s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-light-scan"
+      dur="0.25s"
+      from="0"
+      to="1"
+      fill="freeze"
+      restart="always"
+      begin="FourthSequence.end + 0s"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-light-scan"
+      dur="1.5s"
+      values="
+        M 258, 187 L 191, 81 A 50, 100, 0, 0, 1, 191, 81 Z;
+        M 258, 187 L 175, 98 A 50, 100, 0, 0, 1, 207, 98 Z;
+        M 258, 187 L 191, 115 A 50, 100, 0, 0, 1, 191, 115 Z
+      "
+      fill="freeze"
+      restart="always"
+      begin="FourthSequence.end + 0.5s"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-translate"
+      type="translate"
+      from="191, 80"
+      to="191, 116"
+      begin="FourthSequence.end + 0.5s"
+      dur="1.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="0, 0"
+      to="1, 1"
+      begin="FourthSequence.end + 0.5s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-light-scan-ellipse-scale"
+      type="scale"
+      from="1, 1"
+      to="0, 0"
+      begin="FourthSequence.end + 1.25s"
+      dur="0.75s"
+      fill="freeze"
+      restart="always"
+    />
+    <animateTransform
+      attributeName="transform"
+      attributeType="XML"
+      xlink:href="#group-ball-in"
+      type="translate"
+      from="175, 82"
+      to="175, -20"
+      begin="FourthSequence.end + 3s"
+      dur="0.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-cross"
+      dur="0.001s"
+      to="1"
+      begin="FourthSequence.end + 2.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#polygon-cross"
+      dur="0.001s"
+      to="0"
+      begin="FourthSequence.end + 3s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#group-ball-in"
+      dur="0.001s"
+      from="1"
+      to="0"
+      begin="FourthSequence.end + 3.5s"
+      fill="freeze"
+      restart="always"
+    />
+    <script>
+      const animation = document.getElementById('FirstSequence')
+      animation.beginElement()
+    </script>
 </svg>
