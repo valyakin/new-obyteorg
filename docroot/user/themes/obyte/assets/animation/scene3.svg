@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="700px" height="600px" viewBox="0 0 700 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
     <title>Arrows</title>
     <desc>Created with Sketch.</desc>
@@ -85,25 +85,32 @@
     </defs>
     <g id="root">
         <g id="Arrows" stroke="none" stroke-width="3" fill="none" fill-rule="evenodd">
-            <path id="path-arrow-1" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M65,436 L83,388" />
-            <path id="path-arrow-2" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M134,338 L183,338" />
-            <path id="path-arrow-3" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M117,314 L126,299" />
-            <path id="path-arrow-4" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M208,317 L181,287" />
-            <path id="path-arrow-5" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M178,240 L204,222" />
-            <path id="path-arrow-6" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M250,315 L324,283" />
-            <path id="path-arrow-7" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M87,474 L181,474" />
-            <path id="path-arrow-8" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M260,461 L322,428" />
-            <path id="path-arrow-9" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M226,447 L229,385" />
-            <path id="path-arrow-10" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M265,478 L419,466" />
-            <path id="path-arrow-11" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M390,380 L460,327" />
-            <path id="path-arrow-12" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M469,410 L487,344" />
-            <path id="path-arrow-13" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M280,198 L348,192" />
-            <path id="path-arrow-14" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M344,379 L270,241" />
-            <path id="path-arrow-15" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M378,372 L482,145" />
-            <path id="path-arrow-16" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M500,265 L500,148" />
-            <path id="path-arrow-17" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M400,257 L511,219" />
-            <path id="path-arrow-18" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M536,157 L527,137" />
-            <path id="path-arrow-19" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M422,165 L462,130" />
+            <path id="path-arrow-1" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M65,436 L65,436" />
+            <path id="path-arrow-2" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M87,474 L87,474" />
+
+            <path id="path-arrow-3" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M226,447 L226,447" />
+            <path id="path-arrow-4" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M260,461 L260,461" />
+            <path id="path-arrow-5" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M265,478 L265,478" />
+
+            <path id="path-arrow-6" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M134,338 L183,338" />
+
+            <path id="path-arrow-7" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M117,314 L117,314" />
+            <path id="path-arrow-8" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M469,410 L469,410" />
+
+            <path id="path-arrow-9" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M390,380 L390,380" />
+            <path id="path-arrow-10" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M208,317 L208,317" />
+
+            <path id="path-arrow-11" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M178,240 L204,222" />
+            <path id="path-arrow-12" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M250,315 L250,315" />
+
+            <path id="path-arrow-13" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M280,198 L280,198" />
+            <path id="path-arrow-14" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M344,379 L344,379" />
+            <path id="path-arrow-15" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M378,372 L378,372" />
+
+            <path id="path-arrow-16" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M500,265 L500,265" />
+            <path id="path-arrow-17" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M400,257 L400,257" />
+            <path id="path-arrow-18" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M536,157 L536,157" />
+            <path id="path-arrow-19" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M422,165 L462,130" />
         </g>
         <g>
           <g id="ball-1" transform="translate(0, 0)" opacity="0">
@@ -148,7 +155,7 @@
         </g>
     </g>
     <g id="Persons">
-        <g id="group-persona-1" transform="translate(600,400)">
+        <g id="group-persona-1" transform="translate(600,600)">
             <g transform="translate(208, 40)">
                 <g transform="rotate(0)" id="group-persona-1-rotate">
                     <g transform="translate(-60, -40)">
@@ -267,7 +274,7 @@
       attributeType="XML"
       xlink:href="#group-persona-1"
       type="translate"
-      from="600,400"
+      from="600,600"
       to="30, 440"
       begin="showBall1.begin + 1s"
       dur="1s"
@@ -751,7 +758,7 @@
       attributeType="XML"
       xlink:href="#group-persona-1"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="262, 405"
       begin="showBall5.begin + 1s"
       dur="1s"
@@ -872,7 +879,7 @@
       attributeType="XML"
       xlink:href="#group-persona-2"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="125, 230"
       begin="showBall6.begin + 1s"
       dur="1s"
@@ -993,7 +1000,7 @@
       attributeType="XML"
       xlink:href="#group-persona-1"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="44, 160"
       begin="showBall7.begin + 1s"
       dur="1s"
@@ -1114,7 +1121,7 @@
       attributeType="XML"
       xlink:href="#group-persona-2"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="370, 160"
       begin="showBall8.begin + 1s"
       dur="1s"
@@ -1235,7 +1242,7 @@
       attributeType="XML"
       xlink:href="#group-persona-1"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="168, 225"
       begin="showBall9.begin + 1s"
       dur="1s"
@@ -1356,7 +1363,7 @@
       attributeType="XML"
       xlink:href="#group-persona-2"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="472, 271"
       begin="showBall10.begin + 1s"
       dur="1s"
@@ -1477,7 +1484,7 @@
       attributeType="XML"
       xlink:href="#group-persona-1"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="347, 152"
       begin="showBall11.begin + 1s"
       dur="1s"
@@ -1598,7 +1605,7 @@
       attributeType="XML"
       xlink:href="#group-persona-2"
       type="translate"
-      from="800,400"
+      from="800,600"
       to="472, 73"
       begin="showBall12.begin + 1s"
       dur="1s"
@@ -1710,4 +1717,493 @@
       calcMode="spline"
       keySplines="0.5 0 0.5 1"
     />
+
+    <!-- Animate Arrows -->
+
+    <animate
+      id="AnimateArrow1"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-1"
+      dur="0.5s"
+      values="
+        M65,436 65,436;
+        M65,436 L83,388
+      "
+      begin="10s"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-1"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow1.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow2"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-2"
+      dur="0.5s"
+      values="
+        M87,474 87,474;
+        M87,474 L181,474
+      "
+      begin="AnimateArrow1.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-2"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow2.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow3"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-3"
+      dur="0.5s"
+      values="
+        M226,447 L226,447;
+        M226,447 L229,385
+      "
+      begin="AnimateArrow2.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-3"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow3.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow4"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-4"
+      dur="0.5s"
+      values="
+        M260,461 L260,461;
+        M260,461 L322,428
+      "
+      begin="AnimateArrow2.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-4"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow4.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow5"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-5"
+      dur="0.5s"
+      values="
+        M265,478 L265,478;
+        M265,478 L419,466
+      "
+      begin="AnimateArrow2.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-5"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow5.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow6"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-6"
+      dur="0.5s"
+      values="
+        M134,338 L134,338;
+        M134,338 L183,338
+      "
+      begin="AnimateArrow5.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-6"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow6.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow7"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-7"
+      dur="0.5s"
+      values="
+        M117,314 L117,314;
+        M117,314 L126,299
+      "
+      begin="AnimateArrow6.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-7"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow7.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow8"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-8"
+      dur="0.5s"
+      values="
+        M469,410 L469,410;
+        M469,410 L487,344
+      "
+      begin="AnimateArrow6.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-8"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow8.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow9"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-9"
+      dur="0.5s"
+      values="
+        M390,380 L390,380;
+        M390,380 L460,327
+      "
+      begin="AnimateArrow8.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-9"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow9.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow10"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-10"
+      dur="0.5s"
+      values="
+        M208,317 L208,317;
+        M208,317 L181,287
+      "
+      begin="AnimateArrow8.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-10"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow10.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow11"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-11"
+      dur="0.5s"
+      values="
+        M178,240 L178,240;
+        M178,240 L204,222
+      "
+      begin="AnimateArrow10.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-11"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow11.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow12"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-12"
+      dur="0.5s"
+      values="
+        M250,315 L250,315;
+        M250,315 L324,283
+      "
+      begin="AnimateArrow10.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-12"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow12.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow13"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-13"
+      dur="0.5s"
+      values="
+        M280,198 L280,198;
+        M280,198 L348,192
+      "
+      begin="AnimateArrow12.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-13"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow13.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow14"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-14"
+      dur="0.5s"
+      values="
+        M344,379 L344,379;
+        M344,379 L270,241
+      "
+      begin="AnimateArrow12.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-14"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow14.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow15"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-15"
+      dur="0.5s"
+      values="
+        M378,372 L378,372;
+        M378,372 L482,145
+      "
+      begin="AnimateArrow12.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-15"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow15.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow16"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-16"
+      dur="0.5s"
+      values="
+        M500,265 L500,265;
+        M500,265 L500,148
+      "
+      begin="AnimateArrow15.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-16"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow16.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow17"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-17"
+      dur="0.5s"
+      values="
+        M400,257 L400,257;
+        M400,257 L511,219
+      "
+      begin="AnimateArrow15.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-17"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow17.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow18"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-18"
+      dur="0.5s"
+      values="
+        M536,157 L536,157;
+        M536,157 L527,137
+      "
+      begin="AnimateArrow15.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-18"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow18.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      id="AnimateArrow19"
+      attributeType="xml"
+      attributeName="d"
+      xlink:href="#path-arrow-19"
+      dur="0.5s"
+      values="
+        M422,165 L422,165;
+        M422,165 L462,130
+      "
+      begin="AnimateArrow15.end"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeType="xml"
+      attributeName="opacity"
+      xlink:href="#path-arrow-19"
+      dur="0.001s"
+      from="0"
+      to="1"
+      begin="AnimateArrow19.begin"
+      fill="freeze"
+      restart="always"
+    />
+    <animate
+      attributeName="opacity"
+      attributeType="XML"
+      xlink:href="#root"
+      from="1"
+      to="0"
+      begin="AnimateArrow19.end + 1s"
+      dur="0.25s"
+      fill="freeze"
+    />
+
 </svg>
