@@ -8,51 +8,28 @@
                     <a href="" class="btn">Download wallet</a>
                 </div>
             </div>
-            <div class="img-block" id="clip-container"></div>
-            <script>
-            window.addEventListener('load', () => {
-              const container = document.getElementById('clip-container')
-              const scene1 = `
-                <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene1.svg">
-                   <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
-                </object>
-              `
-              const scene2 = `
-                <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene2.svg">
-                   <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
-                </object>
-              `
-              const scene3 = `
-                <object style="pointer-events: none;" type="image/svg+xml" data="../../user/themes/obyte/assets/animation/scene3.svg">
-                   <img src="{{ url('theme://assets/hero-image.png') }}" alt="">
-                </object>
-              `
-              function reload () {
-                container.innerHTML = scene1
-                if (this.scene2Timeout != null) {
-                  clearTimeout(this.scene2Timeout)
-                  this.scene2Timeout = null
-                }
-                if (this.scene3Timeout != null) {
-                  clearTimeout(this.scene3Timeout)
-                  this.scene3Timeout = null
-                }
-                this.scene2Timeout = setTimeout(() => {
-                  this.scene2Timeout = null
-                  container.innerHTML = scene2
-                }, 12000)
-                this.scene3Timeout = setTimeout(() => {
-                  this.scene3Timeout = null
-                  container.innerHTML = scene3
-                }, 58000)
-              }
-
-              container.addEventListener('click', () => {
-                reload()
-              })
-
-              reload()
-            })</script>
+            <div class="clip-container">
+                {% for scene in page.header.animation %}
+                    <div class="scene-block {{scene.class}}">
+                        <object type="image/svg+xml" data="{{scene.data}}">
+                            <img src="{{ page.header.animationImage }}" alt="">
+                        </object>
+                        <div class="content-block">
+                            <div class="title-block d-flex">
+                                <h2>{{ scene.title }}</h2>
+                                <div class="reply-block d-flex">
+                                    <div class="icon"></div>
+                                    <div class="text">Replay</div>
+                                </div>
+                            </div>
+                            <div class="step-block d-flex">
+                                <div class="step">{{ loop.index }}</div>
+                                <div class="text">{{ scene.text}}</div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
 {#    <i id="to-start" class="pulse fa fa-angle-down"></i> #}

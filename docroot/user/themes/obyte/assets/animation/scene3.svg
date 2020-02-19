@@ -2195,15 +2195,5 @@
       fill="freeze"
       restart="always"
     />
-    <animate
-      attributeName="opacity"
-      attributeType="XML"
-      xlink:href="#root"
-      from="1"
-      to="0"
-      begin="AnimateArrow19.end + 1s"
-      dur="0.25s"
-      fill="freeze"
-    />
 
 </svg>

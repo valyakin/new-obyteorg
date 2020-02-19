@@ -4,6 +4,7 @@
 .section {
   &.modular-hero {
     padding: 100px 1rem 170px;
+    background: linear-gradient(0.27deg, rgba(#f7f7f7, 0.235) 0.42%, #E0EEFF 125%);
     .text-block {
       max-width: 550px;
       h1 {
@@ -23,15 +24,71 @@
       }
     }
     .img-block {
+
+    }
+    .clip-container {
       position: relative;
       width: 600px;
+      &:before {
+        content:'';
+        display: block;
+        position: absolute;
+        top: -48px;
+        left: -515px;
+        width: 1526px;
+        height: 1193px;
+        background: url('../assets/svg/hero-bg2.svg') 118% -20% no-repeat;
+        z-index: -1;
+      }
       svg, object {
         width: 100%;
         height: 600px;
+        pointer-events: none;
       }
       image {
         width: 100%;
         height: 600px;
+      }
+      .title-block {
+        align-items: center;
+        justify-content: space-between;
+        h2 {
+          margin: 0;
+          width: auto;
+          color: $link-color;
+          font-size: 24px;
+          line-height: 33px;
+        }
+      }
+      .reply-block {
+        align-items: center;
+        cursor: pointer;
+        .icon {
+          margin-right: 6px;
+          width: 20px;
+          height: 20px;
+          border-radius: 50%;
+          border: 1px solid rgba($blue, 0.2);
+          background: url('../assets/svg/replay.svg') center no-repeat;
+        }
+        .text {
+          font-size: 12px;
+          color: $blue;
+        }
+      }
+      .step-block {
+        align-items: center;
+      }
+      .step {
+        margin: 0 16px 0 0;
+        font-size: 46px;
+        font-weight: 300;
+        color: $link-color;
+        width: auto;
+      }
+      .text {
+        font-size: 16px;
+        color: rgba($black, .6);
       }
     }
   }
@@ -73,6 +130,7 @@
   }
   &.timeline-wrap {
     overflow: hidden;
+    padding: 0;
     h1 {
       margin: 0 0 12px;
       font-size: 36px;

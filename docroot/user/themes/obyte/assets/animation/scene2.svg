@@ -121,7 +121,7 @@
           <polygon fill="#FF686F" points="9.85871319 30.6071839 14.2484076 33.3052363 19.5005937 32.6120395"></polygon>
         </symbol>
     </defs>
-    <g transform="translate(-210, 240)" id="root" opacity="0">
+    <g transform="scale(0.8,0.8) translate(-122, 440)" id="root" opacity="0">
         <g>
             <g id="group-train" transform="translate(640, -280)">
                 <g id="group-cube5" opacity="1" transform="translate(640, -360)">

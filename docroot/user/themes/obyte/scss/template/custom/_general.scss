@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #f7f7f7;
 }
 
 .container {
@@ -55,10 +56,8 @@ body {
 }
 
 #page-wrapper {
-  background-size: 100% auto;
-  background-position: center top;
+  background-position: 119% 1%;
   background-repeat: no-repeat;
-  background-color: $body-color;
 }
 
 h1 {

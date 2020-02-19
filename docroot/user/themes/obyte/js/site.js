@@ -27,8 +27,46 @@ function swiperMain () {
     })
 }
 
-jQuery(document).ready(function($){
+function animationLogic () {
+    const container = document.querySelector('.clip-container');
+    let reloader = null
+    const scene1 = document.querySelector('.scene-block.scene1');
+    const scene2 = document.querySelector('.scene-block.scene2');
+    const scene3 = document.querySelector('.scene-block.scene3');
+    function reload () {
+        container.innerHTML = scene1.outerHTML;
+        reloader = container.querySelector('.reply-block');
+        reloadHelper(reloader);
+        if (this.scene2Timeout != null) {
+            clearTimeout(this.scene2Timeout);
+            this.scene2Timeout = null;
+        }
+        if (this.scene3Timeout != null) {
+            clearTimeout(this.scene3Timeout);
+            this.scene3Timeout = null;
+        }
+        this.scene2Timeout = setTimeout(() => {
+            this.scene2Timeout = null;
+            container.innerHTML = scene2.outerHTML;
+            reloader = container.querySelector('.reply-block');
+            reloadHelper(reloader);
+        }, 12000);
+        this.scene3Timeout = setTimeout(() => {
+            this.scene3Timeout = null;
+            container.innerHTML = scene3.outerHTML;
+            reloader = container.querySelector('.reply-block');
+            reloadHelper(reloader);
+        }, 58000)
+    }
+  function reloadHelper (elem) {
+    elem.addEventListener('click', () => {
+      reload();
+    })
+  }
+  reload();
+}
 
+jQuery(document).ready(function($){
     scrollHeader();
 
     // Scroll Events
@@ -71,4 +109,5 @@ jQuery(document).ready(function($){
     $(".tree").treemenu({delay:300});
 
     swiperMain();
+    animationLogic();
 });
