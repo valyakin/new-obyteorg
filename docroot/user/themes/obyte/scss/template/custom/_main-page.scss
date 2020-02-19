@@ -3,7 +3,7 @@
 }
 .section {
   &.modular-hero {
-    padding: 100px 0 170px;
+    padding: 100px 1rem 170px;
     .text-block {
       max-width: 550px;
       h1 {
@@ -278,7 +278,7 @@
   }
   &.exchanges-wrap {
     position: relative;
-    padding: 125px 0 54px;
+    padding: 125px 1rem 54px;
     &:after {
       content: '';
       position: absolute;
@@ -411,7 +411,7 @@
 @media (max-width: $size-sm) {
   .section {
     &.modular-hero {
-      padding: 100px 0 58px;
+      padding: 100px 1rem 58px;
       .flex-block {
         flex-flow: row wrap;
         .text-block,
@@ -520,7 +520,7 @@
       }
     }
     &.downloads-wrap {
-      padding: 80px 0;
+      padding: 80px 1rem;
       background: url('../assets/rings.png') 88px top no-repeat;
       .img-block {
         display: none;
@@ -612,7 +612,7 @@
       }
     }
     &.exchanges-wrap {
-      padding: 80px 0;
+      padding: 80px 1rem;
       h1 {
         margin: 0 0 24px;
         font-size: 24px;
