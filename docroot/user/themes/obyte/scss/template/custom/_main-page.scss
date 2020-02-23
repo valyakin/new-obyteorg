@@ -60,6 +60,9 @@
           line-height: 33px;
         }
       }
+      .scene-block {
+        margin-top: -50px;
+      }
       .reply-block {
         align-items: center;
         cursor: pointer;
@@ -470,6 +473,14 @@
   .section {
     &.modular-hero {
       padding: 100px 1rem 58px;
+      .clip-container {
+        svg, object {
+          height: 400px;
+        }
+        image {
+          height: 400px;
+        }
+      }
       .flex-block {
         flex-flow: row wrap;
         .text-block,
