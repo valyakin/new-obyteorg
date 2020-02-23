@@ -202,7 +202,7 @@
                 </g>
             </g>
         </g>
-        <g id="group-persona-2" transform="translate(400, 600)">
+        <g id="group-persona-2" transform="translate(400, 800)">
             <g transform="translate(31, 25)">
                 <g transform="rotate(0)" id="group-persona-2-rotate">
                     <g transform="translate(-60, -40)">
@@ -348,6 +348,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall2"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-2"
@@ -395,7 +396,7 @@
       attributeType="XML"
       xlink:href="#group-persona-2"
       type="translate"
-      from="400,600"
+      from="400,800"
       to="78, 318"
       begin="showBall2.begin + 1s"
       dur="1s"
@@ -469,6 +470,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall3"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-3"
@@ -590,6 +592,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall4"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-4"
@@ -711,6 +714,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall5"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-5"
@@ -832,6 +836,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall6"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-6"
@@ -953,6 +958,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall7"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-7"
@@ -1074,6 +1080,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall8"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-8"
@@ -1195,6 +1202,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall9"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-9"
@@ -1316,6 +1324,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall10"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-10"
@@ -1437,6 +1446,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall11"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-11"
@@ -1558,6 +1568,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall12"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-12"
@@ -1679,6 +1690,7 @@
       restart="always"
     />
     <animate
+      id="AnimateBall13"
       attributeType="xml"
       attributeName="opacity"
       xlink:href="#ball-13"
@@ -1730,7 +1742,7 @@
         M65,436 65,436;
         M65,436 L83,388
       "
-      begin="10s"
+      begin="AnimateBall3.begin"
       fill="freeze"
       restart="always"
     />
@@ -1755,7 +1767,7 @@
         M87,474 87,474;
         M87,474 L181,474
       "
-      begin="AnimateArrow1.begin"
+      begin="AnimateBall2.begin"
       fill="freeze"
       restart="always"
     />
@@ -1766,7 +1778,7 @@
       dur="0.001s"
       from="0"
       to="1"
-      begin="AnimateArrow2.begin"
+      begin="AnimateBall2.begin"
       fill="freeze"
       restart="always"
     />
@@ -1780,7 +1792,7 @@
         M226,447 L226,447;
         M226,447 L229,385
       "
-      begin="AnimateArrow2.end"
+      begin="AnimateBall4.begin"
       fill="freeze"
       restart="always"
     />
@@ -1805,7 +1817,7 @@
         M260,461 L260,461;
         M260,461 L322,428
       "
-      begin="AnimateArrow2.end"
+      begin="AnimateBall5.begin"
       fill="freeze"
       restart="always"
     />
@@ -1830,7 +1842,7 @@
         M265,478 L265,478;
         M265,478 L419,466
       "
-      begin="AnimateArrow2.end"
+      begin="AnimateBall6.begin"
       fill="freeze"
       restart="always"
     />
@@ -1855,7 +1867,7 @@
         M134,338 L134,338;
         M134,338 L183,338
       "
-      begin="AnimateArrow5.end"
+      begin="AnimateBall4.begin"
       fill="freeze"
       restart="always"
     />
@@ -1880,7 +1892,7 @@
         M117,314 L117,314;
         M117,314 L126,299
       "
-      begin="AnimateArrow6.end"
+      begin="AnimateBall7.begin"
       fill="freeze"
       restart="always"
     />
@@ -1905,7 +1917,7 @@
         M469,410 L469,410;
         M469,410 L487,344
       "
-      begin="AnimateArrow6.end"
+      begin="AnimateBall11.begin"
       fill="freeze"
       restart="always"
     />
@@ -1930,7 +1942,7 @@
         M390,380 L390,380;
         M390,380 L460,327
       "
-      begin="AnimateArrow8.end"
+      begin="AnimateBall11.begin"
       fill="freeze"
       restart="always"
     />
@@ -1955,7 +1967,7 @@
         M208,317 L208,317;
         M208,317 L181,287
       "
-      begin="AnimateArrow8.end"
+      begin="AnimateBall7.begin"
       fill="freeze"
       restart="always"
     />
@@ -1980,7 +1992,7 @@
         M178,240 L178,240;
         M178,240 L204,222
       "
-      begin="AnimateArrow10.end"
+      begin="AnimateBall8.begin"
       fill="freeze"
       restart="always"
     />
@@ -2005,7 +2017,7 @@
         M250,315 L250,315;
         M250,315 L324,283
       "
-      begin="AnimateArrow10.end"
+      begin="AnimateBall10.begin"
       fill="freeze"
       restart="always"
     />
@@ -2030,7 +2042,7 @@
         M280,198 L280,198;
         M280,198 L348,192
       "
-      begin="AnimateArrow12.end"
+      begin="AnimateBall9.begin"
       fill="freeze"
       restart="always"
     />
@@ -2055,7 +2067,7 @@
         M344,379 L344,379;
         M344,379 L270,241
       "
-      begin="AnimateArrow12.end"
+      begin="AnimateBall8.begin"
       fill="freeze"
       restart="always"
     />
@@ -2080,7 +2092,7 @@
         M378,372 L378,372;
         M378,372 L482,145
       "
-      begin="AnimateArrow12.end"
+      begin="AnimateBall13.begin"
       fill="freeze"
       restart="always"
     />
@@ -2105,7 +2117,7 @@
         M500,265 L500,265;
         M500,265 L500,148
       "
-      begin="AnimateArrow15.end"
+      begin="AnimateBall13.begin"
       fill="freeze"
       restart="always"
     />
@@ -2130,7 +2142,7 @@
         M400,257 L400,257;
         M400,257 L511,219
       "
-      begin="AnimateArrow15.end"
+      begin="AnimateBall12.begin"
       fill="freeze"
       restart="always"
     />
@@ -2155,7 +2167,7 @@
         M536,157 L536,157;
         M536,157 L527,137
       "
-      begin="AnimateArrow15.end"
+      begin="AnimateBall13.begin"
       fill="freeze"
       restart="always"
     />
@@ -2180,7 +2192,7 @@
         M422,165 L422,165;
         M422,165 L462,130
       "
-      begin="AnimateArrow15.end"
+      begin="AnimateBall13.begin"
       fill="freeze"
       restart="always"
     />
