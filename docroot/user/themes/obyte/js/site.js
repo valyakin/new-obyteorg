@@ -56,7 +56,7 @@ function animationLogic () {
             container.innerHTML = scene3.outerHTML;
             reloader = container.querySelector('.reply-block');
             reloadHelper(reloader);
-        }, 58000)
+        }, 35000)
     }
   function reloadHelper (elem) {
     elem.addEventListener('click', () => {
