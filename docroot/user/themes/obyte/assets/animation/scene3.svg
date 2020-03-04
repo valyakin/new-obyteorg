@@ -85,7 +85,7 @@
     </defs>
     <g id="root">
         <g id="Arrows" stroke="none" stroke-width="3" fill="none" fill-rule="evenodd">
-            <path id="path-arrow-1" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M65,436 L65,436" />
+            <path id="path-arrow-1" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M65,436 L65,436" />
             <path id="path-arrow-2" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M181,474 L181,474" />
 
             <path id="path-arrow-3" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M226,447 L226,447" />
@@ -100,7 +100,7 @@
             <path id="path-arrow-9" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M390,380 L390,380" />
             <path id="path-arrow-10" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M208,317 L208,317" />
 
-            <path id="path-arrow-11" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M178,240 L204,222" />
+            <path id="path-arrow-11" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M178,240 L204,222" />
             <path id="path-arrow-12" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M250,315 L250,315" />
 
             <path id="path-arrow-13" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M280,198 L280,198" />
@@ -108,8 +108,8 @@
             <path id="path-arrow-15" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M378,372 L378,372" />
 
             <path id="path-arrow-16" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M500,265 L500,265" />
-            <path id="path-arrow-17" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M400,257 L400,257" />
-            <path id="path-arrow-18" opacity="0" marker-end="url(#marker-arrow-v1)" stroke="#4A90E2" d="M536,157 L536,157" />
+            <path id="path-arrow-17" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M400,257 L400,257" />
+            <path id="path-arrow-18" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M536,157 L536,157" />
             <path id="path-arrow-19" opacity="0" marker-end="url(#marker-arrow-v2)" stroke="#8EC0FB" d="M422,165 L462,130" />
         </g>
         <g>
