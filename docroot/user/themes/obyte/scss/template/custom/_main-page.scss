@@ -28,7 +28,7 @@
     }
     .clip-container {
       position: relative;
-      width: 600px;
+      width: 560px;
       &:before {
         content:'';
         display: block;
@@ -42,12 +42,12 @@
       }
       svg, object {
         width: 100%;
-        height: 600px;
+        height: 560px;
         pointer-events: none;
       }
       image {
         width: 100%;
-        height: 600px;
+        height: 560px;
       }
       .title-block {
         align-items: center;
