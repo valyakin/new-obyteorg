@@ -1,8 +1,6 @@
 ---
 title: Home
 onpage_menu: false
-body_classes: ''
-
 content:
     items: '@self.modular'
     order:
@@ -10,7 +8,6 @@ content:
         dir: asc
         custom:
             - _showcase
-            - _contracts
             - _timeline
             - _download
             - _team

@@ -2,26 +2,106 @@
 title: Timeline
 asd: as1
 points:
-  -
-    date: Sep 16
-    title: Founder Tony announces Obyte
-  -
-    date: Dec 16
-    title: Network launched on Christmas Day
-  -
-    date: Mar 17
-    title: Release of conditional payments for P2P exchange of one Obyte currency for another Obyte currency
-  -
-    date: Mar 17
-    title: Release of binding payments to an event that happens outside the Obyte platform
-  -
-    date: Mar 19
-    title: Test 1
-  - 
-    date: Mar 20
-    title: Test 2
+    -
+        date: 'Sep 2016'
+        title: 'Founder Tony Churyumoff announces Obyte'
+    -
+        date: 'Dec 2016'
+        title: 'Network launched on Christmas Day'
+    -
+        date: 'Mar 2017'
+        title: 'Conditional payments'
+    -
+        date: 'Apr 2017'
+        title: 'P2P prediction markets'
+    -
+        date: 'Apr 2017'
+        title: 'P2P insurance'
+    -
+        date: 'Jun 2017'
+        title: 'Bot Store'
+    -
+        date: 'Jun 2017'
+        title: 'Grants program'
+    -
+        date: 'Jul 2017'
+        title: 'Flight delay insurance bot'
+    -
+        date: 'Aug 2017'
+        title: 'Two Blackbytes exchanges by independent developers'
+    -
+        date: 'Sep 2017'
+        title: 'First cashback merchants'
+    -
+        date: 'Oct 2017'
+        title: 'Manual oracles'
+    -
+        date: 'Nov 2017'
+        title: 'ICO bot'
+    -
+        date: 'Dec 2017'
+        title: Textcoins
+    -
+        date: 'Jan 2018'
+        title: 'Self-sovereign identity'
+    -
+        date: 'Mar 2018'
+        title: 'Email attestations'
+    -
+        date: 'Apr 2018'
+        title: 'First fiat on-ramp'
+    -
+        date: 'Apr 2018'
+        title: 'World Community Grid distribution'
+    -
+        date: 'May 2018'
+        title: 'First Use-a-Thon in Venezuela'
+    -
+        date: 'Jun 2018'
+        title: 'Private textcoins'
+    -
+        date: 'Jul 2018'
+        title: 'Steem attestation and airdrop'
+    -
+        date: 'Aug 2018'
+        title: 'Sending money to @username'
+    -
+        date: 'Sep 2018'
+        title: 'IoT demos in Bosch Connectory in Stuttgart'
+    -
+        date: 'Oct 2018'
+        title: 'First independent order provider Rogier Eijkelhof'
+    -
+        date: 'Dec 2018'
+        title: developer.obyte.org
+    -
+        date: 'Jan 2019'
+        title: 'Byteball is now Obyte'
+    -
+        date: 'Jan 2019'
+        title: 'First independently developed web wallet'
+    -
+        date: 'Mar 2019'
+        title: 'Obyte Foundation established'
+    -
+        date: 'Apr 2019'
+        title: 'New ID verification methods for Baltic countries'
+    -
+        date: 'Apr 2019'
+        title: 'Prosaic contracts'
+    -
+        date: 'Jun 2019'
+        title: 'Second independent order provider Fabien Marino'
+    -
+        date: 'Jul 2019'
+        title: 'Autonomous Agents launched on testnet'
+    -
+        date: 'Dec 2019'
+        title: 'Third independent order provider Bosch Connectory'
+    -
+        date: 'Feb 2020'
+        title: 'Fourth independent order provider PolloPollo'
 ---
 
 # Timeline
 
-These companies release their own versions of the operating systems with minor changes, and yet always with the same bottom line. The simple fact that not one of these companies are close to competing with Windows, for the most part causes the difference in market share.
