@@ -1,6 +1,5 @@
 ---
 title: Home
-onpage_menu: false
 content:
     items: '@self.modular'
     order:
@@ -13,6 +12,8 @@ content:
             - _team
             - _exchanges
             - _community
+visible: false
+onpage_menu: false
 ---
 
 # Say Hello to Grav!
