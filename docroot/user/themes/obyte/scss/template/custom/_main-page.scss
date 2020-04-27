@@ -3,7 +3,7 @@
 }
 .section {
   &.modular-hero {
-    padding: 100px 1rem 170px;
+    padding: 100px 0 170px;
     background: linear-gradient(0.27deg, rgba(#f7f7f7, 0.235) 0.42%, #E0EEFF 125%);
     .text-block {
       max-width: 550px;
@@ -472,7 +472,7 @@
 @media (max-width: $size-sm) {
   .section {
     &.modular-hero {
-      padding: 100px 1rem 58px;
+      padding: 100px 0 58px;
       .clip-container {
         svg, object {
           height: 400px;

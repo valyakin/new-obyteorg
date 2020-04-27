@@ -101,9 +101,44 @@
             <div class="mobile-logo">
                 {% include 'partials/logo.html.twig' with {mobile: true} %}
             </div>
-            <nav class="overlay-menu">
-                {% include 'partials/navigation.html.twig' with {tree: true} %}
-            </nav>
+            <div class="overlay-menu-wrap">
+                <nav class="overlay-menu">
+                    {% include 'partials/navigation.html.twig' with {tree: true} %}
+                </nav>
+                <div class="d-flex flex-column align-items-center">
+                    <input type="button" class="btn btn-default wallet" value="Download wallet">
+                    <ul class="other-menu">
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                    <div class="lang-block mobile-lang">
+                        <a href="" class="current-lang">EN</a>
+                    </div>
+                    <div class="copyright-block">
+                        <div class="text">© 2020 Obyte. All Rights Reserved</div>
+                    </div>
+                </div>
+            </div>
+            <div class="lang-options-wrap d-none">
+                <a href="" class="back">Back</a>
+                <ul class="lang-list">
+                    <li><a href="" class="active">English</a></li>
+                    <li><a href="">العربية</a></li>
+                    <li><a href="">Dansk</a></li>
+                    <li><a href="">Deutsch</a></li>
+                    <li><a href="">Ελληνικά</a></li>
+                    <li><a href="">Español</a></li>
+                    <li><a href="">Русский</a></li>
+                    <li><a href="">Français</a></li>
+                    <li><a href="">Indonesia</a></li>
+                    <li><a href="">Italiano</a></li>
+                    <li><a href="">日本語</a></li>
+                    <li><a href="">한국어</a></li>
+                    <li><a href="">Nederlands</a></li>
+                    <li><a href="">中文</a></li>
+                </ul>
+            </div>
         </div>
     </div>
     {% endblock %}

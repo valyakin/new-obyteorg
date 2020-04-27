@@ -9,6 +9,9 @@ body.header-fixed.header-animated {
   height: auto;
   border: none;
   box-shadow: 0 1px 0 rgba(69, 108, 145, 0.12);
+  &.section {
+    padding: 0;
+  }
   .container {
     height: 100%;
   }
@@ -35,34 +38,63 @@ body.header-fixed.header-animated {
         font-weight: bold;
         font-size: 16px;
         color: $link-color;
+        &:before {
+          display: none;
+        }
+        &:after {
+          font-family: FontAwesome;
+          display: inline-block;
+          margin-top: -3px;
+          font-size: 12px;
+          content: '\f107';
+          vertical-align: middle;
+        }
+        &:only-child:after {
+          content: '';
+        }
       }
-    }
-  }
-  .lang-block {
-    margin-right: 42px;
-    font-size: 16px;
-    font-weight: bold;
-    a {
-      color: $link-color;
-    }
-    .current-lang {
-      padding: 8px;
-      border: 1px solid rgba($blue, 0.2);
-      border-radius: 50%;
-      &:hover {
-        text-decoration: none;
-        border-color: $blue
+      ul {
+        padding: 8px 0;
+        box-shadow: 0 5px 20px rgba(74, 144, 226, 0.2);
+        border-radius: 8px;
+        li {
+          a {
+            padding: 4px 36px 4px 20px;
+            &:hover {
+              color: $blue2;
+              background-color: #e9f1fb;
+            }
+          }
+        }
       }
-    }
-    .lang-list {
-      display: none;
-      position: absolute;
-      top: 42px;
-      left: 0;
     }
   }
   .btn {
     padding: 8px 19px;
+  }
+}
+
+.lang-block {
+  margin-right: 42px;
+  font-size: 16px;
+  font-weight: bold;
+  a {
+    color: $link-color;
+  }
+  .current-lang {
+    padding: 8px;
+    border: 1px solid rgba($blue, 0.2);
+    border-radius: 50%;
+    &:hover {
+      text-decoration: none;
+      border-color: $blue
+    }
+  }
+  .lang-list {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 0;
   }
 }
 
@@ -87,6 +119,53 @@ body.header-fixed.header-animated {
 body.header-fixed.header-animated #header.scrolled ~ .mobile-menu {
   .button_container {
     top: 20px;
+  }
+}
+
+.mobile-container {
+  .mobile-logo {
+    img {
+      display: block;
+      height: 38px;
+    }
+  }
+  .overlay {
+    opacity: 1;
+    background-color: $header-color;
+  }
+  .mobile-logo {
+    img {
+      margin: 9px 0 0 16px;
+    }
+  }
+}
+
+.mobile-menu {
+  .button_container {
+    top: 22px;
+    &.active {
+      .top,
+      .bottom {
+        background-color: $link-color;
+      }
+      .bottom {
+        top: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: $size-md) {
+  #header {
+    &.section {
+
+    }
+    .logo {
+      padding: 9px 0;
+      img {
+        height: 38px;
+      }
+    }
   }
 }
 
