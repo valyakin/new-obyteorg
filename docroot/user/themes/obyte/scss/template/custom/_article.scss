@@ -1,0 +1,31 @@
+.section.article-content {
+  padding: 0;
+}
+
+.article-content {
+  h2 {
+    margin-bottom: 12px;
+    font-weight: 300;
+    font-size: 36px;
+    color: $link-color;
+  }
+  p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  small {
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .text-block {
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: $size-sm) {
+  .article-content {
+    .text-block {
+      margin-left: 0;
+    }
+  }
+}

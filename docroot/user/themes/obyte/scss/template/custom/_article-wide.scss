@@ -1,0 +1,37 @@
+.article-wide-wrap {
+  padding: 100px 0 0;
+  &.textcoins {
+    background: linear-gradient(277.24deg, rgba(206, 206, 207, 0.0001) 46.45%, #CBCBCD 67.61%);
+    .image-overlay {
+      background: url('../assets/article-images/textcoins-hero.png') top right no-repeat;
+    }
+  }
+  .text-block {
+    padding: 102px 0;
+    max-width: 525px;
+  }
+  h1 {
+    margin: 0 0 16px;
+    font-weight: 300;
+    font-size: 48px;
+    margin-bottom: 16px;
+    color: $link-color;
+  }
+  h2 {
+    margin: 0 0 12px;
+    font-weight: 300;
+    font-size: 36px;
+    color: $link-color;
+  }
+  h3 {
+    margin: 0 0 16px;
+    font-size: 24px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  p {
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
