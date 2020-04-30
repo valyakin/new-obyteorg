@@ -82,16 +82,6 @@ function mobileLang() {
     e.preventDefault();
     langMenu.classList.add('d-none');
   });
-
-  // langLinks.forEach((elem) => {
-  //   elem.addEventListener('click', (e) => {
-  //     e.preventDefault();
-  //     elem.parentElement.querySelectorAll('a').forEach((e) => {
-  //       elem.classList.remove('active');
-  //     })
-  //     elem.classList.add('active');
-  //   });
-  // });
 }
 
 jQuery(document).ready(function($){
