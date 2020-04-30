@@ -15,15 +15,18 @@ Imagine a safe where you store your money. This safe is locked but it is placed 
     <div class="column col-4 col-sm-12">
         <div class="text-block">
         <h2>Send Textcoins through chat apps</h2>
-                <p>
-                Instead of sending Textcoins through email, you can also send them in any text messaging app of your choice. You simply create the Textcoin, copy the text from it and paste it in the chat with the recipient as plain text. Simple and easy. The recipient can click the link and will automatically claim the textcoin or be prompted to install a wallet if he didn't already. Learn more.
+                <p>Instead of sending Textcoins through email, you can also send them in any text messaging app of your choice. You simply create the Textcoin, copy the text from it and paste it in the chat with the recipient as plain text. Simple and easy. The recipient can click the link and will automatically claim the textcoin or be prompted to install a wallet if he didn't already. Learn more.</p>
                 <small>This 34 second video shows how recipients claim Textcoins in two easy steps. It covers receipt through WhatsApp, Telegram, WeChat, email and other text message applications.</small>
-                </p>
         </div>
     </div>
 </div>
-##Claim back Textcoins
-<small>In the GUI wallet the history of transactions reveals which outgoing transactions were created as Textcoins. Click the transaction to see whether the recipient claimed the funds or not. In case you want to claim back the textcoin you simply click the "Claim back" link in the transaction. No more funds getting lost, no more time consuming double checking of wallet addresses.</small>
+<br>
+<div class="columns">
+    <div class="column col-7 col-sm-12">
+        <h2>Claim back Textcoins</h2>
+        <small>In the GUI wallet the history of transactions reveals which outgoing transactions were created as Textcoins. Click the transaction to see whether the recipient claimed the funds or not. In case you want to claim back the textcoin you simply click the "Claim back" link in the transaction. No more funds getting lost, no more time consuming double checking of wallet addresses.</small>
+    </div>
+</div>
 <br><br>
 ##Putting Textcoins to good use
 There are several ways textcoins can be used. Firstly, you can use it to send any asset on the Obyte platform to any user you know. Either through email or through chat. But there are also other ways in which Textcoins can be a relevant alternative to regular transactions.
@@ -34,3 +37,5 @@ Another example is to distribute an asset to random people to raise awareness of
 
 For further information and templates for creating physical Textcoins, please refer to this article.
 
+<br>
+<br>
