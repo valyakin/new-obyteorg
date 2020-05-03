@@ -33,30 +33,33 @@ function animationLogic () {
     const scene1 = document.querySelector('.scene-block.scene1');
     const scene2 = document.querySelector('.scene-block.scene2');
     const scene3 = document.querySelector('.scene-block.scene3');
+
     function reload () {
+      if (container) {
         container.innerHTML = scene1.outerHTML;
         reloader = container.querySelector('.reply-block');
         reloadHelper(reloader);
         if (this.scene2Timeout != null) {
-            clearTimeout(this.scene2Timeout);
-            this.scene2Timeout = null;
+          clearTimeout(this.scene2Timeout);
+          this.scene2Timeout = null;
         }
         if (this.scene3Timeout != null) {
-            clearTimeout(this.scene3Timeout);
-            this.scene3Timeout = null;
+          clearTimeout(this.scene3Timeout);
+          this.scene3Timeout = null;
         }
         this.scene2Timeout = setTimeout(() => {
-            this.scene2Timeout = null;
-            container.innerHTML = scene2.outerHTML;
-            reloader = container.querySelector('.reply-block');
-            reloadHelper(reloader);
+          this.scene2Timeout = null;
+          container.innerHTML = scene2.outerHTML;
+          reloader = container.querySelector('.reply-block');
+          reloadHelper(reloader);
         }, 12000);
         this.scene3Timeout = setTimeout(() => {
-            this.scene3Timeout = null;
-            container.innerHTML = scene3.outerHTML;
-            reloader = container.querySelector('.reply-block');
-            reloadHelper(reloader);
+          this.scene3Timeout = null;
+          container.innerHTML = scene3.outerHTML;
+          reloader = container.querySelector('.reply-block');
+          reloadHelper(reloader);
         }, 32000)
+      }
     }
   function reloadHelper (elem) {
     elem.addEventListener('click', () => {
@@ -64,6 +67,21 @@ function animationLogic () {
     })
   }
   reload();
+}
+
+function mobileLang() {
+  const langBtn = document.querySelector('.mobile-lang');
+  const langMenu = document.querySelector('.lang-options-wrap');
+  const langBack = document.querySelector('.lang-options-wrap .back');
+  const langLinks = document.querySelectorAll('.lang-options-wrap .lang-list a');
+  langBtn.addEventListener('click', (e) => {
+    e.preventDefault();
+    langMenu.classList.toggle('d-none');
+  });
+  langBack.addEventListener('click', (e) => {
+    e.preventDefault();
+    langMenu.classList.add('d-none');
+  });
 }
 
 jQuery(document).ready(function($){
@@ -110,4 +128,5 @@ jQuery(document).ready(function($){
 
     swiperMain();
     animationLogic();
+    mobileLang();
 });
