@@ -1,0 +1,11 @@
+{% set grid_size = theme_var('grid-size') %}
+<section class="section {{ page.header.class}}">
+    <div class="image-overlay"></div>
+    <div class="bot"></div>
+    <section class="container {{ grid_size }}">
+        <div class="text-block">
+            {{ content|raw }}
+        </div>
+        <div class="grad-right"></div>
+    </section>
+</section>
