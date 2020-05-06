@@ -27,7 +27,7 @@ Decentralized applications (dApps) that can be powered by AAs include:
 Unlike blockchains, there are no miners or other intermediaries on DAG, therefore there is no room for miner manipulation. One doesn't need to bother about front-running or censorship by miners. Therefore, dApps running on a DAG are safer than dApps on blockchain.
 
 ## How Autonomous Agents work
-Autonomous Agents are similar to vending machines. One sends a transaction with some money and data to an AA and expects a response: some other monetary token and some data permanently recorded on the DAG - similar to inserting coins into a vending machine, entering the number of the desired drink on a keypad, and getting the drink in response.
+Autonomous Agents are similar to vending machines. One sends a transaction with some money and data to an AA and expects a response: some other monetary token and some data permanently recorded on the DAG - similar to inserting coins into a vending machine, entering the number of the desired drink on a keypad, and getting the drink in response. [image that features a vending machine]
 
 ## Agents, not contracts
 Autonomous Agents exist on equal terms with human actors: they are _endpoints_ of interactions. Contracts, on the other hand, exist _between_ humans or human-managed organizations, contracts _are_ interactions. [image: a network of interconnected nodes, most of them are humans, some are AAs]

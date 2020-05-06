@@ -14,7 +14,7 @@ The two parties use chat in Obyte wallet to make offers, privately exchange the 
 
 ## Real names attached
 
-Before signing a prosaic contract, the parties can (and are recommended to) exchange their [real world identities linked to their wallet addresses](identity) in order to prove who they are.
+Before signing a prosaic contract, the parties can (and are recommended to) exchange their [real world identities linked to their wallet addresses](/platform/identity) in order to prove who they are.
 
 ![](insert-private-profile.png)
 
