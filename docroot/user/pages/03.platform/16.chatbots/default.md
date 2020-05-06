@@ -1,5 +1,5 @@
 ---
-title: Chatbots
+title: 'Chat and chatbots'
 media_order: 'chat-orider.png,bot-store.png'
 ---
 
