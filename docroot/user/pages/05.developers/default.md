@@ -49,8 +49,9 @@ This is the space Obyte developers work in. And there are lots of tools to navig
 ## Building blocks
 * [Autonomous Agents](/platform/autonomous-agents)
 * [Identity](/platform/identity)
+* [Payment channels](/platform/payment-channels)
 * [Textcoins](/platform/textcoins)
-* Chatbots
+* [Chatbots](/platform/chatbots)
 * [Smart contracts](/platform/smart-contracts)
 * [Oracles](/platform/oracles)
 * Plain old payments

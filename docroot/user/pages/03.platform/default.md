@@ -9,6 +9,7 @@ Obyte platform has a lot of building blocks available for developers and allows 
 Here are some of the most important ones:
 * [Autonomous Agents](/platform/autonomous-agents)
 * [Self-sovereign identity](/platform/identity)
+* [Payment channels](/platform/payment-channels)
 * [Smart contracts](/platform/smart-contracts)
 * [Oracles](/platform/oracles)
 * [Textcoins](/platform/textcoins)
