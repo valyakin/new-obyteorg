@@ -32,6 +32,7 @@
     {% do assets.addJs('theme://js/jquery.treemenu.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/site.js', {group:'bottom'}) %}
     {% do assets.addJs('theme://js/swiper.min.js', {group:'bottom'}) %}
+    {% do assets.addJs('theme://js/textcoin.js', {group:'bottom'}) %}
 {% endblock %}
 
 {% block assets deferred %}
@@ -40,6 +41,7 @@
 {% endblock %}
 </head>
 <body id="top" class="{% block body_classes %}{{ body_classes }}{% endblock %}">
+    {% include 'partials/textcoin.html.twig' %}
     <div id="page-wrapper">
     {% block header %}
         <section id="header" class="section">
