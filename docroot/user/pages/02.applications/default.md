@@ -8,7 +8,7 @@ media_order: 'flight-delay-insurance-offer.png,sports-betting-offer.png,conditio
 This is where you can use Obyte already today.
 
 ## Create and issue stablecoins
-Use [orable.org](https://ostable.org) website to issue stablecoins pegged to USD or BTC, or create new stablecoins pegged to any other asset or index.
+Use [ostable.org](https://ostable.org) website to issue stablecoins pegged to USD or BTC, or create new stablecoins pegged to any other asset or index.
 
 These stablecoins appreciate in value, you can earn interest by holding them.
 
