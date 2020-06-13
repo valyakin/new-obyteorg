@@ -34,7 +34,7 @@ class: article-content
     </div>
 </div>
 <br><br>
-## Putting Textcoins to good use
+## Using textcoins for mass distibutions
 There are several ways textcoins can be used. Firstly, you can use it to send any asset on the Obyte platform to any user you know. Either through email or through chat. But there are also other ways in which Textcoins can be a relevant alternative to regular transactions.
 
 One such case is a scenario where you have to distribute an asset by a significant number of transactions in very short time. In this case, creating a physical Textcoin can be an effective alternative. By preparing a number of Textcoins in advance, and creating QR-codes of them on pieces of paper, you massively increase the number of transactions you can do in a very short amount of time. Examples of such uses could be standing at the entrance of a conference room, handing out the physical representations of the Textcoins to visitors pouring through the doors. In a matter a minutes, you can easily distribute hundreds of Textcoins.
@@ -43,5 +43,5 @@ Another example is to distribute an asset to random people to raise awareness of
 
 For further information and templates for creating physical Textcoins, please refer to [this article](https://medium.com/obyte-help/creating-physical-obyte-textcoins-14f1f1ba7455).
 
-<br>
-<br>
+----
+Developers: sending textcoins from your apps is as easy as sending regular payments, see the [developer docs about texcoins](https://developer.obyte.org/payments/textcoins).
