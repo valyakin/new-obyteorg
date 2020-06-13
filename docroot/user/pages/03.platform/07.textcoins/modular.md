@@ -9,8 +9,6 @@ content:
         custom:
             - _article-wide
             - _article
-            - _article-list
-            - _community
 ---
 
 # Textcoins (Actual text moved to modular pages)
