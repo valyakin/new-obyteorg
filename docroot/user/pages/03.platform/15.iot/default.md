@@ -1,14 +1,14 @@
 ---
 title: IoT
-media_order: 'Tony and Toni Connectory Hackathon Sept 2018.jpg,Bosch P2P consumer Marketplace.jpeg,Autonomous Agent - Dutch Auction.jpeg,Connectory minds at work.jpeg,Rui Connectory CryptoMonday.jpeg'
+media_order: 'Tony and Toni Connectory Hackathon Sept 2018.jpg,Bosch P2P consumer Marketplace.jpeg,Autonomous Agent - Dutch Auction.jpeg,Connectory minds at work.jpeg,Rui Connectory CryptoMonday.jpeg,Connectory Hackathon pic.jpeg'
 ---
 
 # Internet of Things
 
 Thanks to low energy consumption and relatively small memory requirements, Obyte is well suited for IoT applications.
 
-Several PoCs have been developed in Bosch Connectory in Stuttgart, such as a [coffee machine](https://www.stuttgartconnectory.com/iot-experiences?target=_blank) that sells coffee for Bosch coins (a token on Obyte), 3d printer network, lego city, [luke please expand and add links and images]
-![](Tony%20and%20Toni%20Connectory%20Hackathon%20Sept%202018.jpg)![](Bosch%20P2P%20consumer%20Marketplace.jpeg)![](Autonomous%20Agent%20-%20Dutch%20Auction.jpeg)![](Connectory%20minds%20at%20work.jpeg)![](Rui%20Connectory%20CryptoMonday.jpeg)
+[Several PoCs](/platform/iot/proofs-of-concept) have been developed in conjunction with the Bosch Connectory in Stuttgart.  Obyte has participated as a key technology provider in 2 Connectory Hackathons which have produced a number of interesting applications, several of which are being developed further by different Bosch business untis.  
+![](Tony%20and%20Toni%20Connectory%20Hackathon%20Sept%202018.jpg) ![](Connectory%20Hackathon%20pic.jpeg)
 
 ## Payment channels
 Iot applications often use [payment channels](/platform/payment-channels) to organize streaming payments between two IoT devices or between a user wallet and a IoT device. They can be used e.g. for charging electric vehicles, parking, renting a room, payment for data streams, payment for services such as real time voice recognition, and other machine-to-machine payments.
