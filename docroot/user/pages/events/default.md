@@ -7,22 +7,18 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
 Due to worldwide travel restrictions the Obyte team will be staying put for the coming months, however you are always free to reach out to us with your questions, suggestions and proposals at o@obyte.org.
  
 # Past events
- [for each event, please write 1-3 paragraphs and add images or video]
  
 ## Obytetalks Webinar - April 2020
-[Luke, Fabiola, Tarmo]
-The first of our new Obyte Talks webinar series was held online at the end of April and focused on explaining evertything that there is to know about Autonomous Agents and how to get started build one.  Please see below for a replay of the event.
+The first of our new Obyte Talks webinar series was held online at the end of April and focused on explaining everything that there is to know about Autonomous Agents and how to get started build one.  Please see below for a replay of the event.
 [plugin:vimeo](https://vimeo.com/https://vimeo.com/user113723827/review/415926311/e895f40756) 
 
  ## LaBITconf in Montevideo, Uruguay - December 2019
- [Casper] 
 Santiago Law travelled to Montevideo in December 2019 to represent the PolloPollo project at the Latin American Bitcoin Conference. PolloPollo received a "Dreamers" Award for the work that has been carried out since it was devised at a Hackathon held in the Universidad San Bolivar in Caracas.  Donations are being sent directly from donors to merchants in Venezuela who can pass on goods to people free from intermediaries using the Obyte DAG platform. Goods are registered by merchants who can pass them on to those requesting them when payment has been received in bytes. 
 ![](PolloPollo%20B4H-Award.png) ![](PolloPollo1.jpg)
 
 ## Blockchain & The City Workshop in Lyon, France - November 2019
- [Luke, Steve]
  ![](Lyon%20Hackathon%201.jpg) ![](Lyon%20Hackathon2.jpg) ![](Lyon%20Hackathon%20presentation.jpeg)
- This special workshop was sponsored by the Trusted IoT Alliance, EDF, La Ruche Industrielle and other key industry players to bring together the technologies of IoT and DLT to help solve issues facing our modern urban communities. Specifically the chanllenge was to create carbon-free e-mobility and multi-services platforms for communities. Obyte was represented by COO Steve Safronoff and developer Evegniy Stulnikov who teamed up with representatives from EDF and a graduate student in IT to develop Parkshare, a P2P shared parking marketplace based on DLT.
+This special workshop was sponsored by the Trusted IoT Alliance, EDF, La Ruche Industrielle and other key industry players to bring together the technologies of IoT and DLT to help solve issues facing our modern urban communities. Specifically the chanllenge was to create carbon-free e-mobility and multi-services platforms for communities. Obyte was represented by COO Steve Safronoff and developer Evegniy Stulnikov who teamed up with representatives from EDF and a graduate student in IT to develop Parkshare, a P2P shared parking marketplace based on DLT.
  ![](Lyon%20Hackathon%20ParkShare%20Diagram.png)
  
 ## Decentralized conference in Athens, Greece Oct-Nov 2019
