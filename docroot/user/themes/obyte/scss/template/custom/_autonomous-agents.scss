@@ -1,0 +1,127 @@
+.section {
+  &.autonomous-agents-wrap {
+    color: rgba(0, 0, 0, 0.87);
+    background: url('../assets/autonomous-agents/autonomous-agents.jpg') top center no-repeat;
+    &:before {
+      content:'';
+      position: absolute;
+      height: 660px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url('../assets/autonomous-agents/autonomous-agents-repeat.jpg') center repeat-x;
+      z-index: -1;
+    }
+    h1 {
+      margin: 0;
+      padding: 102px 0 12px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 600;
+      font-size: 48px;
+      color: $link-color;
+    }
+    h2 {
+      font-weight: 300;
+      font-size: 36px;
+      line-height: 49px;
+      color: $link-color;
+    }
+    .sub-text {
+      margin-bottom: 31px;
+      font-size: 24px;
+      line-height: 33px;
+      max-width: 440px;
+      &.small {
+        margin-bottom: 16px;
+        max-width: 540px;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
+    .list-block {
+      margin-bottom: 82px;
+    }
+    ul {
+      margin: 0 0 0 20px;
+    }
+    .flex-block {
+      display: flex;
+      flex-flow: row nowrap;
+      .img-block {
+        max-width: 100%;
+        flex-shrink: 0;
+        img {
+          display: block;
+        }
+        .mobile {
+          display: none;
+        }
+      }
+      .info-block {
+        padding-top: 22px;
+      }
+      h2 {
+        margin: 0 0 7px;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 49px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 28px;
+      }
+      &.one {
+        margin-bottom: 35px;
+      }
+      &.two {
+        .img-block {
+          flex-shrink: 0;
+          margin: 0 64px 0 -110px;
+        }
+        .info-block {
+          img {
+            margin-left: 35px;
+            display: block;
+            max-width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: $size-sm) {
+  .section {
+    &.autonomous-agents-wrap {
+      .flex-block {
+        flex-flow: column nowrap;
+        .img-block {
+          order: 1;
+          img {
+            display: none;
+          }
+          .mobile {
+            margin: 0 auto;
+            display: block;
+          }
+        }
+        .info-block {
+          order: 2;
+        }
+        &.two {
+          .img-block {
+            margin: 0 0 30px;
+          }
+          .info-block {
+            img {
+              margin: 0 0 20px 0;
+            }
+          }
+        }
+      }
+      .dev-blog {
+        padding: 20px;
+        flex-flow: column nowrap;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.section {
+  &.testnet-wrap {
+    color: rgba(0, 0, 0, 0.87);
+    min-height: 650px;
+    background: url('../assets/testnet/testnet-bg.jpg') center bottom no-repeat;
+    &:before {
+      content:'';
+      position: absolute;
+      height: 660px;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background: url('../assets/testnet/testnet-repeat-bg.jpg') center repeat-x;
+      z-index: -1;
+    }
+    h1 {
+      margin: 0;
+      padding: 102px 0 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 48px;
+      font-weight: 600;
+      color: $link-color;
+      max-width: 350px;
+    }
+    .sub-text {
+      margin-bottom: 31px;
+      font-size: 24px;
+      line-height: 33px;
+      max-width: 440px;
+    }
+  }
+  &.downloads-wrap.testnet {
+    margin-top: -125px;
+    padding: 0;
+    background: none;
+    color: rgba(0, 0, 0, 0.87);
+  }
+}
+
+@media (max-width: $size-sm) {
+  .section {
+    &.testnet-wrap {
+
+    }
+  }
+}
