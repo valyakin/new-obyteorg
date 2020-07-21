@@ -1,5 +1,5 @@
 ---
-title: Order Providers
+title: 'Order Providers'
 class: order-providers-wrap
 ---
 
@@ -10,7 +10,7 @@ class: order-providers-wrap
 <p class="sub-paragraph">
     Each order provider regularly posts transactions and does so strictly in order, i.e. their next transaction 
     includes (directly or indirectly, through parent-child links on the DAG) their previous transaction. 
-    These transactions serve as waypoints that allow to build a <a href="/technology">Main Chain</a> and order all other 
+    These transactions serve as <b>waypoints</b> that allow to build a <a href="/technology">Main Chain</a> and to order all other 
     transactions around the Main Chain.
 </p>
 <div class="flex-block left">
@@ -54,7 +54,7 @@ Having 12 positions in the Order Provider list allows to tolerate random failure
 <div class="flex-block right">
     <div class="info-block">
         <p>
-            The network was started in December 2016 with all 12 Order Providers controlled by the founder Tony Churyumoff but they were decentralized over time and currently 6 out of 12 Order Provider nodes are independent. The most recent replacements were chosen during polls among the Obyte community. We are looking for more candidates to be selected as Order Providers and further decentralize order provision.
+            The network was started in December 2016 with all 12 Order Providers controlled by the founder Tony Churyumoff but they were decentralized over time and currently 7 out of 12 Order Provider nodes are independent. The most recent replacements were chosen during polls among the Obyte community. We are looking for more candidates to be selected as Order Providers and further decentralize order provision.
         </p>
         <p>
             Note that even when order provision is centralized, admission of new transactions into the network is still completely decentralized and disintermediated as Order Providers do not stand between users and the ledger and can't control access. Their role is vastly different from that of miners. 

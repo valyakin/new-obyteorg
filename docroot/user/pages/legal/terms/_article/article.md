@@ -1,5 +1,5 @@
 ---
-title: Terms of Use
+title: 'Terms of Use'
 class: terms-of-use-wrap
 ---
 
@@ -26,4 +26,4 @@ The laws of Liechtenstein shall exclusively govern all disputes and all other pr
 The courts of Liechtenstein shall have exclusive jurisdiction over all disputes and all other proceedings related to the content and the connection to this Site.
 <br>
 ## Contact
-If you have questions concerning these Terms of Use, please feel free to send us an email at [o@obyte.org](mailto:o@obyte.org).
+If you have questions concerning these Terms of Use, please feel free to send us an email at <script>document.write('<a href="mailto:o'); document.write('@'); document.write('obyte.org">o'); document.write('@'); document.write('obyte.org</a>');</script>.

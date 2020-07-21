@@ -1,5 +1,5 @@
 ---
-title: Autonomous Agents
+title: 'Autonomous Agents'
 class: autonomous-agents-wrap
 ---
 
@@ -36,12 +36,12 @@ class: autonomous-agents-wrap
 <div class="flex-block one">
     <div class="info-block">
         <h2>Why DAG matters</h2>
-        <p>Unlike blockchains, there are no miners or other intermediaries on DAG, therefore there is no room for miner manipulation. One doesn't need to bother about front-running or censorship by miners. Therefore, dApps running on a DAG are safer than dApps on blockchain.</p>
+        <p>Unlike blockchains, there are no miners or other intermediaries on DAG, therefore there is no room for miner manipulation. One doesn't need to bother about front-running or censorship by miners. Therefore, dApps running on a DAG are safer than dApps on a blockchain.</p>
         <br>
         <br>
         <h2>How Autonomous Agents work</h2>
         <p>
-            Autonomous Agents are similar to vending machines. One sends a transaction with some money and data to an AA and expects a response: some other monetary token and some data permanently recorded on the DAG - similar to inserting coins into a vending machine, entering the number of the desired drink on a keypad, and getting the drink in response.
+            Autonomous Agents are similar to vending machines. One sends a transaction with some money and data to an AA and expects a response: some other monetary token and some data permanently recorded on the DAG &mdash; similar to inserting coins into a vending machine, entering the number of the desired drink on a keypad, and getting the drink in response.
         </p>
     </div>
     <div class="img-block">
@@ -56,7 +56,7 @@ class: autonomous-agents-wrap
     <div class="info-block">
         <h2>Agents, not contracts</h2>
         <p>
-            Autonomous Agents exist on equal terms with human actors: they are endpoints of interactions. Contracts, on the other hand, exist between humans or human-managed organizations, contracts are interactions.
+            Autonomous Agents exist on equal terms with human actors: they are endpoints of interactions. Contracts, on the other hand, exist <i>between</i> humans or human-managed organizations, contracts <i>are</i> interactions.
         </p>
         <img src="/user/themes/obyte/assets/autonomous-agents/img2.svg" alt="">
         <p>
@@ -79,7 +79,7 @@ class: autonomous-agents-wrap
         <div class="cat">Developers</div>
         <div class="title">Build your AAs</div>
         <p>
-            AAs are written in Oscript — a new programming language designed for this purpose. 
+            AAs are written in <b>Oscript</b> — a new programming language designed for this purpose. 
             Oscript avoids some unsafe programming patterns common in earlier languages such as Solidity. 
             It is easier to see what an AA is going to do, it is harder to make mistakes that would cost millions. 
             Programming in Oscript is safer. Oscript syntax is easy to learn and will look familiar to those 
@@ -102,6 +102,7 @@ class: autonomous-agents-wrap
             </li>
         </ul>
         <p>
+            <br>
             See the full <a href="https://developer.obyte.org/autonomous-agents" target="_blank">developer documentation about Autonomous Agents</a>.
         </p>
     </div>
@@ -129,7 +130,7 @@ class: autonomous-agents-wrap
                 quickly exchange one token for another in just a few clicks.
             </li>
             <li>
-                <b>Decentralized token registry</b> (it has no UI yet, one has to send command directly to the AA) to assign ticker symbols to tokens on Obyte.            
+                <a target="_blank" href="https://tokens.ooo">Decentralized token registry</a>: assign ticker symbols to tokens on Obyte.            
             </li>
         </ul>
     </div>

@@ -10,7 +10,7 @@ class: grants-wrap
 <div class="sub-text-block">
     <p>
         Some of the important parts of Obyte ecosystem were created by independent contributors and funded as grants. 
-        For example, [obyte.js](https://obytejs.com) library was funded as a grant, many IoT related works were funded 
+        For example, <a href="https://obytejs.com" target="_blank">obyte.js</a> library was funded as a grant, many IoT related works were funded 
         as grants, <a target="_blank" href="https://oswap.io">oswap.io</a> was grant funded,
         <a target="_blank" href="https://wcg.report">World Community Grid distribution bot</a> 
         <a target="_blank" href="https://github.com/Papabyte/byteduino">Byteduino library</a>
@@ -41,7 +41,7 @@ class: grants-wrap
         </p>
         <p>
             1. Applicant(s) come up with an idea that can be realized by the applicant(s) and would potentially add value to the platform. <br>
-            2. Applicant(s) draft a pre-proposal and offer it for public discussion. The pre-proposal includes the _what_ and _why_ of the work as well as milestones and requested funding. <br>
+            2. Applicant(s) draft a pre-proposal and offer it for public discussion. The pre-proposal includes the <b>what</b> and <b>why</b> of the work as well as milestones and requested funding. <br>
             3. After public discussion and based on community feedback, the applicant(s) optionally amend the pre-proposal and submit a final proposal. <br>
             4. The proposal is voted by the grant committee and approved based on 3-of-4 majority, or rejected. <br>
             5. The applicant(s) publish regular updates about their ongoing work and the funds are released based on achieved milestones. <br>        

@@ -7,7 +7,6 @@ class: iot-wrap2
 <p class="med-width">
     Iot applications often use <a href="/platform/payment-channels">payment channels</a> to organize streaming payments between two IoT devices or between a user wallet and a IoT device. They can be used e.g. for charging electric vehicles, parking, renting a room, payment for data streams, payment for services such as real time voice recognition, and other machine-to-machine payments.
 </p>
-<br><br>
 
 ## Autonomous things
 In an environment where:

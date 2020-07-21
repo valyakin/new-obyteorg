@@ -9,7 +9,7 @@ class: careers-wrap
 </div>
 <div class="sub-text-block">
     <p>
-        We are a distributed team working in a decentralized manner so you can join our team no matter where you from or where you are located. Contact us at jobs@obyte.org and send us your CV and cover letter explaining why you are interested in the position that you are applying for, and why you are the candidate that we are looking for.  Please put the position in the subject line and your favourite ice cream flavour in the body of your email, or else we will know that you are not paying attention to detail.  We look forward to receiving your application!
+        We are a distributed team working in a decentralized manner so you can join our team no matter where you from or where you are located. Contact us at <script>document.write('<a href="mailto:jobs'); document.write('@'); document.write('obyte.org">jobs'); document.write('@'); document.write('obyte.org</a>');</script> and send us your CV and cover letter explaining why you are interested in the position that you are applying for, and why you are the candidate that we are looking for.  Please put the position in the subject line and your favourite ice cream flavour in the body of your email, or else we will know that you are not paying attention to detail.  We look forward to receiving your application!
     </p>
 </div>
 
@@ -27,4 +27,4 @@ class: careers-wrap
     </ul>
 </div>
 
-Please send all CVs and cover letters to: <a href="mailto:jobs@obyte.org">jobs@obyte.org</a>.
+Please send all CVs and cover letters to: <script>document.write('<a href="mailto:jobs'); document.write('@'); document.write('obyte.org">jobs'); document.write('@'); document.write('obyte.org</a>');</script>.

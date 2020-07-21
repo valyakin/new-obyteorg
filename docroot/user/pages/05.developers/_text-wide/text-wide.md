@@ -2,6 +2,7 @@
 title: Developers
 class: developers-wide
 ---
+
 <div class="categories-list">
     <div class="category-block one">
         <div class="inner-wrap">
@@ -18,7 +19,8 @@ class: developers-wide
                     <a href="/platform/chatbots">Chatbots</a>
                     <a href="/platform/smart-contracts">Smart contracts</a>
                     <a href="/platform/oracles">Oracles</a>
-                    <a href="#">Plain old payments</a>
+                    <a href="/platform/tokens">Tokens</a>
+                    <a>Plain old payments</a>
                 </div>
             </div>
         </div>

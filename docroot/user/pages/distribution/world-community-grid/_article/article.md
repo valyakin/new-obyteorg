@@ -9,7 +9,7 @@ class: community-grid-wrap
 </div>
 <div class="sub-text-block">
     <p>
-        <a target="_blank" href="https://www.worldcommunitygrid.org/?target=_blank">World Community Grid</a>
+        <a target="_blank" href="https://www.worldcommunitygrid.org/">World Community Grid</a>
          is an IBM sponsored philanthropic initiative running since 2004. WCG allows one to use idle time of one's 
          computer to help scientists solve the world’s biggest problems in health and sustainability.
     </p>

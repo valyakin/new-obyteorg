@@ -10,11 +10,10 @@ class: faq-wrap
 </div>
 
 <p class="sub-text-block">
-    Usually, the answers to most questions can be found in the various online material like the official 
-    <a target="_blank" href="">Obyte website</a>, the <a target="_blank" href="">Obyte Developer Site</a> and the 
-    <a target="_blank" href="">Obyte Wiki</a>. Even though most answers can be found on those sites, users often find 
-    it faster to simply ask their questions to the communities on <a target="_blank" href="">Discord</a> or 
-    <a target="_blank" href="">Telegram</a>. Below, we have compiled a list of the most frequently asked questions and the answers.
+    Usually, the answers to most questions can be found in the various online material like this website, the <a target="_blank" href="https://developer.obyte.org">Obyte Developer Site</a> and the 
+    <a target="_blank" href="https://wiki.obyte.org">Obyte Wiki</a>. Even though most answers can be found on those sites, users often find 
+    it faster to simply ask their questions to the communities on <a target="_blank" href="https://discord.obyte.org">Discord</a> or 
+    <a target="_blank" href="https://t.me/obyteorg">Telegram</a>. Below, we have compiled a list of the most frequently asked questions and the answers.
 </p>
 
 <div class="white-block">
@@ -23,7 +22,7 @@ class: faq-wrap
 </div>
 <div class="white-block">
     <h4>Where can I trade Bytes</h4>
-    <p>See the list of exchanges on the <a href="">main page</a>.</p>
+    <p>See the list of exchanges on the <a href="/">main page</a>.</p>
 </div>
 <div class="white-block">
     <h4>Are Order Providers (witnesses) centralized gatekeepers?</h4>
@@ -44,14 +43,14 @@ class: faq-wrap
 
 <div class="white-block">
     <h4>Where can I read more about Obyte?</h4>
-    <p>The best way is to start on the <a target="_blank" href="">official website</a> which you are already doing. Here, you will find links to various other sources about specific topics.</p>
+    <p>The best way is to start on the <a target="_blank" href="/">official website</a> which you are already doing. Here, you will find links to various other sources about specific topics.</p>
 </div>
 
 <div class="white-block">
     <h4>Is there an Obyte faucet?</h4>
-    <p>There is no faucet to get free Bytes but you can participate in our <a target="_blank" href="">World Community Grid distribution</a>
+    <p>There is no faucet to get free Bytes but you can participate in our <a href="/distribution/world-community-grid">World Community Grid distribution</a>
      which allows you to get free Bytes in exchange for donating your computing resources to good causes. There are 
-     other <a target="_blank" href="">distribution methods</a> as well.</p>
+     other <a href="/distribution">distribution methods</a> as well.</p>
 </div>
 
 <div class="white-block">
@@ -59,15 +58,15 @@ class: faq-wrap
     <p>First, make sure you have the latest version of the wallet. If it prompts you to replace order 
     providers/witnesses on startup, you should replace any old addresses as you might not be able to transact from 
     light wallets if your list of Order Providers differs too much from the hub that your wallet is connected to. 
-    If you still experience problems, head over to the <a target="_blank" href="">Obyte Discord</a> and provide details of the problem in the #helpdesk channel.</p>
+    If you still experience problems, head over to the <a target="_blank" href="https://discord.obyte.org">Obyte Discord</a> and provide details of the problem in the #helpdesk channel.</p>
 </div>
 
 <div class="white-block">
     <h4>Is there a transaction fee on Obyte?</h4>
     <p>
-        Yes, every transaction must pay a small fee to send transactions to the DAG. The amount of Bytes in transaction fee is determined by the size of your transaction. For example, if your transaction's data consumes 700 bytes of disk space, the fee to submit that transaction to the DAG will be 700 Bytes of the currency. This allows for low, predictable fees.
+        Yes, every transaction must pay a small fee to send transactions to the DAG. The amount of Bytes in transaction fee is determined by the size of your transaction. For example, if your transaction's data consumes 800 bytes of disk space, the fee to submit that transaction to the DAG will be 800 Bytes of the currency. This allows for low, predictable fees.
     </p>
-    <p>A typical payment transaction takes about 600 bytes, which is about $0.00001 at the current rate.</p>
+    <p>A typical payment transaction takes about 800 bytes, which is about $0.00001 at the current rate.</p>
 </div>
 
 <div class="white-block">
@@ -87,7 +86,7 @@ class: faq-wrap
 <div class="white-block">
     <h4>There are so many things and buttons in the wallet, do you have a guide for the wallet?</h4>
     <p>
-        For things that are not self-explanatry, there are plenty of articles, examples and even videos explaining how to use the wallet. Simply search for them using your favorite search engine or check out <a href="">Obyte Tutorials</a>.
+        For things that are not self-explanatry, there are plenty of articles, examples and even videos explaining how to use the wallet. Simply search for them using your favorite search engine or check out <a href="https://medium.com/obyte-help" target="_blank">Obyte Tutorials</a>.
     </p>
 </div>
 
@@ -96,15 +95,15 @@ class: faq-wrap
     <p>
         There are two backup options that you ca find in the wallet's settings (under burger menu): backup of wallet 
         seed and full backup. Backup of wallet seed allows to recover only single-sig wallets while a full backup 
-        recovers everything including <a href="">Blackbytes</a>, multi-sig wallets, <a href="">smart contracts</a>, 
-        <a href="">private identity profiles</a>, and <a href="">chat</a> history and contacts.
+        recovers everything including <a href="/platform/blackbytes">Blackbytes</a>, multi-sig wallets, <a href="/platform-smart-contracts">smart contracts</a>, 
+        <a href="/platform/identity">private identity profiles</a>, and <a href="/platform/chatbots">chat</a> history and contacts.
     </p>
 </div>
 
 <div class="white-block">
     <h4>Can Obyte be mined or staked?</h4>
     <p>
-        No, all Bytes were issued in the <a href="">Genesis Unit</a>. The total supply of Bytes was created in that and no more can ever be created.
+        No, all Bytes were issued in the <a href="https://explorer.obyte.org/#oj8yEksX9Ubq7lLc+p6F2uyHUuynugeVq4+ikT67X6E=" target="_blank">Genesis Unit</a>. The total supply of Bytes was created in that and no more can ever be created.
     </p>
 </div>
 
@@ -115,7 +114,7 @@ class: faq-wrap
         sent directly from one user to another. In the wallet's Bot Store, you can find chat bots that provides simple 
         order books allowing users to find others to trade with. Keep in mind, that by using the chat bot, a small part 
         of the privacy of course is lost as the bot operator will be able to see which addresses are used to send 
-        blackbytes. Read more about <a href="">Blackbytes</a>.
+        blackbytes. Read more about <a href="/platform/blackbytes">Blackbytes</a>.
     </p>
 </div>
 
@@ -123,7 +122,7 @@ class: faq-wrap
     <h4>Is there a way to have passive income with Obyte?</h4>
     <p>
         Not directly. Some distribution methods offer ways to earn Bytes for example by donating your device's excess 
-        CPU power to humanitarian projects through <a href="">World Community Grid</a>.
+        CPU power to humanitarian projects through <a href="/distribution/world-community-grid">World Community Grid</a>.
     </p>
 </div>
 
@@ -158,7 +157,7 @@ class: faq-wrap
     </p>
     <p>
         Byte is the native currency of the platform, it is used to pay for fees. It is also the most popular 
-        and the most widely distributed asset on the platform (there are many others, see <a href="">Tokens</a>).
+        and the most widely distributed asset on the platform (there are many others, see <a href="/platform/tokens">Tokens</a>).
     </p>
     <p>
         GBYTE is the currency unit of Bytes that is traded on exchanges, 1 GBYTE is 1 billion Bytes. While Byte is 
@@ -172,14 +171,14 @@ class: faq-wrap
 <div class="white-block">
     <h4>What's the total supply of GBYTE?</h4>
     <p>
-        1 million GBYTE or 1015 Bytes. Out of these, about 75% have already been distributed.
+        1 million GBYTE or 10<sup>15</sup> Bytes. Out of these, about 75% have already been distributed.
     </p>
 </div>
 
 <div class="white-block">
     <h4>What is the Obyte Foundation?</h4>
     <p>
-        Obyte Foundation is a non-profit legal entity incorporated in Liechtenstein. The Foundation is tasked with distributing the undistributed Bytes in ways that help adoption of the platform. One of such ways is through grants. If projects apply for funding, the Obyte Foundation's Grant Committee will vote on whether or not to provide funding. In order to receive funding, the project must be open source, benefit the Obyte ecosystem and generally be in line with the rather strict rules for what the Obyte Foundation can use undistributed funds for.
+        Obyte Foundation is a non-profit legal entity registered in Liechtenstein. The Foundation is tasked with distributing the undistributed Bytes in ways that help adoption of the platform. One of such ways is through grants. If projects apply for funding, the Obyte Foundation's Grant Committee will vote on whether or not to provide funding. In order to receive funding, the project must be open source, benefit the Obyte ecosystem and generally be in line with the rather strict rules for what the Obyte Foundation can use undistributed funds for.
     </p>
 </div>
 

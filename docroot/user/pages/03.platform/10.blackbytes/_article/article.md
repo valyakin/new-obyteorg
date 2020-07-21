@@ -1,5 +1,5 @@
 ---
-title: 'Blackbytes'
+title: Blackbytes
 class: blackbytes-wrap
 ---
 
@@ -70,7 +70,7 @@ Blackbytes is just one privacy token on Obyte which is special only in that it w
         <div class="title">Using Smart Contracts in your apps</div>
         <p>
             For developers interested in creating a privacy token on Obyte, see the documentation about 
-            <a href="">token creation</a>, including creation of privacy tokens, on the developer resource portal.
+            <a href="https://developer.obyte.org/issuing-assets-on-byteball" target="_blank">token creation</a>, including creation of privacy tokens, on the developer resource portal.
         </p>
     </div>
 </div>

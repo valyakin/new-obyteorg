@@ -35,10 +35,7 @@ Payment channels are based on [Autonomous Agents](/platform/autonomous-agents) t
         <div class="cat">Developers</div>
         <div class="title">Using Payment channels in your apps</div>
         <p>
-            Developers, see <a href="https://github.com/Papabyte/aa-channels-lib">payment channels library</a> and <a href="https://github.com/byteball/pay-per-call-API">a library for pay-as-you-go API access</a>.
+            Developers, see <a href="https://github.com/Papabyte/aa-channels-lib" target="_blank">payment channels library</a> and <a href="https://github.com/byteball/pay-per-call-API" target="_blank">a library for pay-as-you-go API access</a>.
         </p>
     </div>
 </div>
-
-Developers, see [payment channels library](https://github.com/Papabyte/aa-channels-lib) and [a library for pay-as-you-go API access](https://github.com/byteball/pay-per-call-API).
-

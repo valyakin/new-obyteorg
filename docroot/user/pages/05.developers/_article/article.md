@@ -3,17 +3,17 @@ title: Developers
 class: developers-wrap
 ---
 
-#Obyte for developers
+# Obyte for developers
 <p class="bullet">Imagine a global, ownerless, shared database any app can freely read from</p>
 ```js
 const objUnit = await storage.readUnit('Xrs9FcyJ6F/54BM2D4HCT1RQOoiXHCs/AlNRd/dNXoo=');
-const data = objUnit.messages.find(1m => m.app === 'data').payload;
+const data = objUnit.messages.find(m => m.app === 'data').payload;
 ```
 <p class="bullet-padding">and write to, for a fee equal to the size of data being written</p>
-<br>
 ```js
 let unit = await sendData({ payload: { event: "Let there be light!", year: 0 } });
 ```
+<br>
 <p class="bullet">Imagine a global, ownerless, shared payment medium that apps use to sell their APIs to each other</p>
 ```js
 const objPaymentPackage = await payPerCallClient.createPaymentPackage(amount);

@@ -10,6 +10,7 @@ class: identity-wrap
 <div class="sub-text-block">
     For example, a user may opt to have their real name verified, with the personal information being stored in their wallet and nowhere else, then share this information with other users they choose, with other users being able to verify that this information is authentic using the Obyte DAG.
 </div>
+
 Knowledge of a user's real-world identity might be necessary e.g. for signing prosaic <br> 
  contracts to know that the other party really is who they say they are, or for some apps <br> 
  to be compliant with KYC requirements or to prevent fraud.
@@ -31,7 +32,7 @@ Other information, such as email address or social media profiles, can also be v
             If the verified information is saved privately in the user's wallet, the user can easily share it with interested parties using the built-in chat:
         </p>
         <img class="info-img" src="/user/themes/obyte/assets/identity/img1-bot.png" alt="">
-        <p>while choosing which fields to disclose:</p>
+        <p>while choosing which fields to disclose.</p>
     </div>
     <div class="img-block">
         <img src="/user/themes/obyte/assets/identity/img1.png" alt="">
@@ -39,7 +40,7 @@ Other information, such as email address or social media profiles, can also be v
     </div>
 </div>
 
-##Available attestors
+## Available attestors
 Verifications are usually performed by bots. Here are a few bots whose attestations can be used now:
 <br/>
 <div class="attestors-list">

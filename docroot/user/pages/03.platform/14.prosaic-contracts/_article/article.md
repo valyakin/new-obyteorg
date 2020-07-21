@@ -1,5 +1,5 @@
 ---
-title: Prosaic Contracts
+title: 'Prosaic Contracts'
 class: prosaic-contracts-wrap
 ---
 
@@ -12,7 +12,7 @@ class: prosaic-contracts-wrap
     </div>
     <p>
         The two parties use chat in Obyte wallet to make offers, privately exchange the texts of the contracts, 
-        and singnal acceptance. The texts of the contracts are stored privately in the wallets of the parties, 
+        and signal acceptance. The texts of the contracts are stored privately in the wallets of the parties, 
         while a hash of the contract signed by the two parties is stored on Obyte DAG. Should a dispute arise, 
         a thrird party (an arbitrator, mediator, judge) will be able to use this hash to verify that the contract 
         was really signed by the two parties and that it was not altered after signing.
@@ -37,8 +37,8 @@ class: prosaic-contracts-wrap
         <div class="content-small">
             <div class="title">Enforcement</div>
             <p>
-                Prosaic contracts do not lock any funds that could gurantee contract execution, they are not smart 
-                contracts. They have to be enforced like regular contracts, and the signatures created when 
+                Prosaic contracts do not lock any funds that could gurantee contract execution, they are not <a href="/platform/smart-contracts">smart 
+                contracts</a>. They have to be enforced like regular contracts, and the signatures created when 
                 signing prosaic contracts are classified as <b>advanced electronic signatures</b> under the European 
                 electronic signature regulation and similar laws of some other countries.
             </p>

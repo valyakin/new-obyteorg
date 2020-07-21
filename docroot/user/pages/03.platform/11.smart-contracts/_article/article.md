@@ -21,7 +21,7 @@ class: smart-contracts-wrap
         or high costs of dispute resolution, are removed.</p>
     <p>
         Smart contracts on Obyte should not be confused with smart contracts on Ethereum whose role in trade is more 
-        like that of _agents_ &mdash; parties of trade. Such agents exist on Obyte too and they are called 
+        like that of <i>agents</i> &mdash; parties of trade. Such agents exist on Obyte too and they are called 
         <a href="/platform/autonomous-agents">Autonomous Agents</a>.
     </p>
 </div>
@@ -29,12 +29,12 @@ class: smart-contracts-wrap
 ## How do Smart Contracts work?
 <div class="flex-block one">
     <div class="info-block">
-        <p>Generally, Smart Contracts are often created by chatbots, but the Obyte Wallet has built-in features making it rather easy to define Smart Contracts directly between users, without having to write a single line of code or know anything about how the Obyte protocol works.</p>
-        <p>In order to create a Smart Contract, the parties must first pair their wallets. This is done by either sending a pairing invitation link to the counter party or accepting a pairing invitation from the counter party. Once the two users' wallets are paired, they can send chat messages to each other.</p>
-        <p>The Obyte Wallet's chat has built-in features to make it easier to create Smart Contracts. The user wanting to create the Smart Contract first asks the counter party to insert his wallet address in the chat. This is done by clicking the (···) icon and selecting "Insert my wallet address". The wallet address will appear in the user's chat as a clickable link. When clicking the link the user selects one of two options:</p>
+        <p>Generally, Smart Contracts are often created by <a href="/platform/chatbots">chatbots</a>, but the Obyte Wallet has built-in features making it rather easy to define Smart Contracts directly between users, without having to write a single line of code or know anything about how the Obyte protocol works.</p>
+        <p>In order to create a Smart Contract, the parties must first pair their wallets. This is done by either sending a pairing invitation link to the counterparty or accepting a pairing invitation from the counterparty. Once the two users' wallets are paired, they can send chat messages to each other.</p>
+        <p>The Obyte Wallet's chat has built-in features to make it easier to create Smart Contracts. The user wanting to create the Smart Contract first asks the counterparty to insert his wallet address in the chat. This is done by clicking the (···) icon and selecting <b>Insert my wallet address</b>. The wallet address will appear in the user's chat as a clickable link. When clicking the link the user selects one of two options:</p>
         <ul>
-            <li>"Pay to this address": to make a payment and while creating the payment click "Bind the payment to a condition" to specify a condition that must be met before the recipient is able to receive the money;</li>
-            <li>"Offer a contract": choose this option when both parties need to make an initial payment to the contract, e.g. to create an insurance contract or a betting contract.</li>
+            <li><b>Pay to this address</b>: to make a payment and while creating the payment click <b>Bind the payment to a condition</b> to specify a condition that must be met before the recipient is able to receive the money;</li>
+            <li><b>Offer a contract</b>: choose this option when both parties need to make an initial payment to the contract, e.g. to create an insurance contract or a betting contract.</li>
         </ul>
     </div>
     <div class="img-block">
@@ -53,7 +53,7 @@ class: smart-contracts-wrap
             A Smart Contract can have a single condition but sometimes multiple conditions define who and when can spend funds from it. The conditions can either be defined using the built-in template in the Obyte Wallet or the more complex conditions can be defined by headless wallets that can have beautiful and easy-to-use web interfaces.
         </p>
         <p>
-            The built-in template makes simple conditions fast and easy to create in human readable language. The template defines the conditions for when two parties in the Smart Contract can spend funds. Once conditions are defined, the user sends the Smart Contract to the counter party who can review all conditions and decide whether or not to accept them. Conditions can be either on-chain events like transactions to/from a given address, dates, times or it can be off-chain events that are introduced to the Obyte DAG through [oracles](/platform/oracles).
+            The built-in template makes simple conditions fast and easy to create in human readable language. The template defines the conditions for when two parties in the Smart Contract can spend funds. Once conditions are defined, the user sends the Smart Contract to the counterparty who can review all conditions and decide whether or not to accept them. Conditions can be either on-chain events like transactions to/from a given address, dates, times or it can be off-chain events that are introduced to the Obyte DAG through <a href="/platform/oracles">Oracles</a>.
         </p>
     </div>
 </div>
@@ -75,7 +75,7 @@ class: smart-contracts-wrap
 </div>
 
 ## Common use cases
-The most common use cases for Smart Contracts on Obyte are conditional payments, insurance, sports betting, atomic swaps, but anywhere where conditioning a payment makes sense, Smart Contracts can be used to effectively aliminate the need for trust between parties.
+The most common use cases for Smart Contracts on Obyte are conditional payments, insurance, sports betting, atomic swaps, but anywhere where conditioning a payment makes sense, Smart Contracts can be used to effectively eliminate the need for trust between parties.
 <br>
 <br>
 

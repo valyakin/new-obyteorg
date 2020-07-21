@@ -2,6 +2,7 @@
 title: Article
 class: textcoins-wrap
 ---
+
 # Textcoins
 <div class="sub-block">
     Textcoins are a way to send cryptocurrency via email, chat, or any other text based media.
@@ -59,7 +60,7 @@ Textcoins can be used as cold storage if they are not sent to anybody but instea
             much larger than textcoins holding public assets and they are sent as files with .coin suffix. The files are 
             usually several megabytes large. To claim the funds stored on a private textcoin, one needs to double-click 
             the .coin file, which launches one's Obyte wallet and automatically claims the value stored on the textcoin. 
-            <a href="">Learn more about private textcoins</a>.
+            <a href="https://medium.com/obyte/private-textcoins-6a2288d80757" target="_blank">Learn more about private textcoins</a>.
         </p>
     </div>
     <div class="img-block">
@@ -86,7 +87,7 @@ Textcoins can be used as cold storage if they are not sent to anybody but instea
     </div>
 </div>
 <br><br>
-For further information and templates for creating physical Textcoins, please refer to this article.
+For further information and templates for creating physical Textcoins, please refer to <a href="https://medium.com/obyte-help/creating-physical-obyte-textcoins-14f1f1ba7455" target="_blank">this article</a>.
 <br><br>
 <div class="dev-blog">
     <div class="dev-img-block">
@@ -97,7 +98,7 @@ For further information and templates for creating physical Textcoins, please re
         <div class="title">Using Textcoins in your apps</div>
         <p>
             Developers: sending textcoins from your apps is as easy as sending regular payments, see the 
-            <a href="">developer docs about texcoins</a>.
+            <a href="https://developer.obyte.org/payments/textcoins" target="_blank">developer docs about texcoins</a>.
         </p>
     </div>
 </div>

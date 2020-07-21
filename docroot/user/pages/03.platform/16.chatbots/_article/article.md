@@ -20,17 +20,17 @@ class: chatbots-wrap
     <div class="info-block">
         <p>In addition to the standard text messaging functionality, the chat supports:</p>
         <ul>
-            <li>sending payments requests for a specific amount;</li>
+            <li>sending payment requests for a specific amount;</li>
             <li>paying the requested amount in two clicks;</li>
             <li>sharing one's address for easy use in payments and contracts;</li>
             <li>sending a payment to the peer's address in a few clicks;</li>
-            <li>sharing one's <a target="_blank" href="/platform/identity">private profile</a> or a part thereof;</li>
+            <li>sharing one's <a href="/platform/identity">private profile</a> or a part thereof;</li>
             <li>requesting a private profile;</li>
             <li>offering a menu of clickable commands for easy navigation;</li>
             <li>sending a vote;</li>
             <li>signing a message;</li>
             <li>requesting to sign a message;</li>
-            <li>offering a  <a target="_blank" href="/platform/prosaic-contracts">prosaic contract</a></li>
+            <li>offering a  <a href="/platform/prosaic-contracts">prosaic contract</a></li>
             <li>accepting a prosaic contract.</li>
         </ul>
         <p>These capabilities are most useful for chatbots, which are small apps programmed to give automated responses depending on user input.</p>

@@ -81,4 +81,4 @@ class: privacy-wrap
 </div>
 
 ## Contact
-If you have questions concerning this Privacy Policy, please feel free to send us an email at [o@obyte.org](mailto:o@obyte.org).
+If you have questions concerning this Privacy Policy, please feel free to send us an email at <script>document.write('<a href="mailto:o'); document.write('@'); document.write('obyte.org">o'); document.write('@'); document.write('obyte.org</a>');</script>.

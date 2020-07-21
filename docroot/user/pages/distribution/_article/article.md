@@ -14,7 +14,7 @@ class: distribution-wrap
     </p>
 </div>
 
-Today, most of the distribution happens in exchange for contribution to Obyte, such as through grants, to team members for their time, to companies for the services they provide to Obyte, prizes for contest participants, etc.
+Today, most of the distribution happens in exchange for contribution to Obyte, such as through [grants](/grants), to team members for their time, to companies for the services they provide to Obyte, prizes for contest participants, etc.
 
 Free distribution through various methods continues too, albeit at a slower pace.
 
@@ -91,27 +91,27 @@ Free distribution through various methods continues too, albeit at a slower pace
         <td><a target="_blank" href="https://medium.com/obyte-help/using-mailchimp-to-mass-send-payments-as-textcoins-5c1db06342e3">Mass sending of textcoins</a></td>
         <td>2018</td>
         <td><b>116</b></td>
-        <td><a target="_blank" href="https://explorer.obyte.org/?target=_blank#5M72ELJMTZ2NHZVYMZ4CDJSKJO2QXIPK">5M72ELJMTZ2NHZVYMZ4CDJSKJO2QXIPK</a></td>
+        <td><a target="_blank" href="https://explorer.obyte.org/#5M72ELJMTZ2NHZVYMZ4CDJSKJO2QXIPK">5M72ELJMTZ2NHZVYMZ4CDJSKJO2QXIPK</a></td>
     </tr>
     <tr>
         <td><a target="_blank" href="https://medium.com/obyte/money-for-knowledge-distribution-via-telegram-quiz-bot-2dd400e22997?target=_blank">Telegram quiz</a></td>
         <td>since 2018</td>
         <td><b>70</b></td>
-        <td><a target="_blank" href="https://explorer.obyte.org/?target=_blank#XPOQYAPM5NDYTVRV763C2G557GMKRZXL">XPOQYAPM5NDYTVRV763C2G557GMKRZXL</a></td>
+        <td><a target="_blank" href="https://explorer.obyte.org/#XPOQYAPM5NDYTVRV763C2G557GMKRZXL">XPOQYAPM5NDYTVRV763C2G557GMKRZXL</a></td>
     </tr>
     <tr>
         <td><a href="/distribution/world-community-grid">World Community Grid</a></td>
         <td>since 2018</td>
         <td><b>5,861</b></td>
-        <td><a target="_blank" href="https://explorer.obyte.org/?target=_blank#OP3XG7FP2Q3HAF4GR33YCFI7BHLAZMFW">OP3XG7FP2Q3HAF4GR33YCFI7BHLAZMFW</a></td>
+        <td><a target="_blank" href="https://explorer.obyte.org/#OP3XG7FP2Q3HAF4GR33YCFI7BHLAZMFW">OP3XG7FP2Q3HAF4GR33YCFI7BHLAZMFW</a></td>
     </tr>
     <tr>
         <td>Grants, contractors, expenses, prizes, etc</td>
         <td>since 2018</td>
         <td><b>50,400</b><small>.8</small></td>
         <td>
-            <a target="_blank" href="https://explorer.obyte.org/?target=_blank#MXAAXEZBCRW5I2SH3JQQIQKVY2XS3D66">MXAAXEZBCRW5I2SH3JQQIQKVY2XS3D66</a> <br>
-            <a target="_blank" href="https://explorer.obyte.org/?target=_blank#FCXZXQR353XI4FIPQL6U4G2EQJL4CCU2">FCXZXQR353XI4FIPQL6U4G2EQJL4CCU2</a>
+            <a target="_blank" href="https://explorer.obyte.org/#MXAAXEZBCRW5I2SH3JQQIQKVY2XS3D66">MXAAXEZBCRW5I2SH3JQQIQKVY2XS3D66</a> <br>
+            <a target="_blank" href="https://explorer.obyte.org/#FCXZXQR353XI4FIPQL6U4G2EQJL4CCU2">FCXZXQR353XI4FIPQL6U4G2EQJL4CCU2</a>
         </td>
     </tr>
     </tbody>
