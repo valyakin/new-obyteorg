@@ -1,5 +1,5 @@
 ---
-title: Chatbots
+title: 'Smart Contracts'
 onpage_menu: false
 body_classes: ''
 content:
@@ -8,3 +8,4 @@ content:
         by: default
         dir: asc
 ---
+

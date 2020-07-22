@@ -1,5 +1,5 @@
 ---
-title: Tokens
+title: 'Prosaic Contracts'
 onpage_menu: false
 body_classes: ''
 content:
@@ -8,3 +8,4 @@ content:
         by: default
         dir: asc
 ---
+
