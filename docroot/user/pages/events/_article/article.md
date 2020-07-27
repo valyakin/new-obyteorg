@@ -1,13 +1,12 @@
 ---
 title: Events
-class: events-wrap
 media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2019.jpg,Seamless Smart Payments Dubai April 2019.jpg,4YFN Feb 2019 2.jpg,Blockchain Future Festival Stuttgart Feb 2019 Zhenya set up.jpg,Blockchain Future Festival Stuttgart Feb 2019 Luke pres.jpg,Decentralized Logo wall.jpeg,Tarmo Crypto Monday1.jpeg,Tarmo Crypto Monday3.jpeg,Tarmo Crypto Monday2.jpeg,Rui Connectory CryptoMonday.jpeg,Lyon Hackathon 1.jpg,Lyon Hackathon presentation.jpeg,Lyon Hackathon2.jpg,Lyon Hackathon ParkShare Diagram.png,PolloPollo B4H-Award.png,PolloPollo1.jpg'
+class: events-wrap
 ---
-
 
 # Upcoming events
 <div class="sub-block">
-    Due to worldwide travel restrictions the Obyte team will be staying put for the coming months, however you are always free to reach out to us with your questions, suggestions and proposals at o@obyte.org.
+    Due to worldwide travel restrictions the Obyte team will be staying put for the coming months, however you are always free to reach out to us with your questions, suggestions and proposals at <script>document.write('<a href="mailto:o'); document.write('@'); document.write('obyte.org">o'); document.write('@'); document.write('obyte.org</a>');</script>.
 </div>
 <br><br>
  
@@ -25,7 +24,7 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
     <div class="element-block">
         <div class="date">December 2019</div>
         <div class="title">LaBITconf in Montevideo, Uruguay</div>
-        <p>Santiago Law travelled to Montevideo in December 2019 to represent the PolloPollo project at the Latin American Bitcoin Conference. PolloPollo received a "Dreamers" Award for the work that has been carried out since it was devised at a Hackathon held in the Universidad San Bolivar in Caracas.  Donations are being sent directly from donors to merchants in Venezuela who can pass on goods to people free from intermediaries using the Obyte DAG platform. Goods are registered by merchants who can pass them on to those requesting them when payment has been received in bytes.</p>
+        <p>Santiago Law travelled to Montevideo in December 2019 to represent the <a href="https://pollopollo.org" target="_blank">PolloPollo</a> project at the Latin American Bitcoin Conference. PolloPollo received a "Dreamers" Award for the work that has been carried out since it was devised at a Hackathon held in the Universidad San Bolivar in Caracas.  Donations are being sent directly from donors to merchants in Venezuela who can pass on goods to people free from intermediaries using the Obyte DAG platform. Goods are registered by merchants who can pass them on to those requesting them when payment has been received in bytes.</p>
         <div class="d-flex">
             <img src="/user/themes/obyte/assets/events/img1.png" alt="">
             <img src="/user/themes/obyte/assets/events/img2.png" alt="">
@@ -33,7 +32,7 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
     </div>
     <div class="element-block">
         <div class="date">November 2019</div>
-        <div class="title">Blockchain & The City Workshop in Lyon, France</div>
+        <div class="title">Blockchain &amp; The City Workshop in Lyon, France</div>
         <p>This special workshop was sponsored by the Trusted IoT Alliance, EDF, La Ruche Industrielle and other key industry players to bring together the technologies of IoT and DLT to help solve issues facing our modern urban communities. Specifically the chanllenge was to create carbon-free e-mobility and multi-services platforms for communities. Obyte was represented by COO Steve Safronoff and developer Evegniy Stulnikov who teamed up with representatives from EDF and a graduate student in IT to develop Parkshare, a P2P shared parking marketplace based on DLT.</p>
         <div class="d-flex">
             <img src="/user/themes/obyte/assets/events/img3.jpg" alt="">
@@ -63,7 +62,7 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
         <div class="title">Hackathon in Stuttgart, Germany</div>
         <p>
             Obyte was very proud to be invited again to participate as a key technology provider in the second Annual Hackathon sponsored by the Bosch Connectory in Stuttgart, Germany. 40 developers from Bosch and selected partners joined the event and worked on 7 different challenges, the solutions for 5 of which were powered by Obyte technology. <br> 
-            Teams used the Obyte DLT platform to create a vending machine accepting only BoschCoin cryptotokens, a distributed on-demand market place for renting power tools, a decentralized peer to peer energy trading platform, a crypto powered meeting room booking solution, and an Autonomous Agent for a decentralized marketplace with built-in escrow functionality and a dutch auction mechanism. You can see more in-deth information on the IoT page
+            Teams used the Obyte DLT platform to create a vending machine accepting only BoschCoin cryptotokens, a distributed on-demand market place for renting power tools, a decentralized peer to peer energy trading platform, a crypto powered meeting room booking solution, and an Autonomous Agent for a decentralized marketplace with built-in escrow functionality and a dutch auction mechanism. You can see more in-depth information on the <a href="/platform/iot/proofs-of-concept">IoT PoCs</a> page.
         </p>
         <img src="/user/themes/obyte/assets/events/img8.jpg" alt="">
     </div>
@@ -71,7 +70,7 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
         <div class="date">August 2019</div>
         <div class="title">Crypto Monday meetup in Stuttgart, Germany </div>
         <p>
-            Obyte was very pleased to present its technology at one of the premier blockchain/DLT meetups on Germany which was attended by several dozen people and streamed live as well. Luke Angell gave a introduction to Obyte for those who were not well acquainted with the project, and Tarmo Annus followed up with a detailed description about the differences between Obyte and Ethereum Smart Contracts, as well as quick tutorial about how to get started writing Smart Contracts on Obyte. The presentations concluded with Rui of the Bosch Connectory making a quick demostration of how Bosch had created their own BoschCoin crypto token using Obyte and had integrated BoschCoin payments with certain appliaances in the Connectory like a coffee machine and 3D printer.
+            Obyte was very pleased to present its technology at one of the premier blockchain/DLT meetups on Germany which was attended by several dozen people and streamed live as well. Luke Angell gave a introduction to Obyte for those who were not well acquainted with the project, and Tarmo Annus followed up with a detailed description about the differences between Obyte and Ethereum Smart Contracts, as well as quick tutorial about how to get started writing Smart Contracts on Obyte. The presentations concluded with Rui of the Bosch Connectory making a quick demostration of how Bosch had created their own BoschCoin crypto token using Obyte and had integrated BoschCoin payments with certain appliances in the Connectory like a coffee machine and 3D printer.
         </p>
         <div class="d-flex">
             <img src="/user/themes/obyte/assets/events/img9.jpg" alt="">
@@ -102,7 +101,7 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
         <div class="date">February 2019</div>
         <div class="title">Blockchain Future Festival </div>
         <p>
-            Presenting its technology together with the Bosch Connectory, Obyte and Bosch demostrated how cryptotokens can be generated on the Obyte platform and used to power trustless payments between anonymous customers and service providers. A complete ecosystem of logistics delivery, parking, electric vehicle charging, co-working rental and solar electricity production and provision was portrayed using everyone´s favourite building blocks -Lego! Also, Luke Angell gave a presentation on why the future of blockchain is not blockchain! (Hint - it´s DAG!)
+            Presenting its technology together with the Bosch Connectory, Obyte and Bosch demostrated how cryptotokens can be generated on the Obyte platform and used to power trustless payments between anonymous customers and service providers. A complete ecosystem of logistics delivery, parking, electric vehicle charging, co-working rental and solar electricity production and provision was portrayed using everyone´s favourite building blocks &mdash; Lego! Also, Luke Angell gave a presentation on why the future of blockchain is not blockchain! (Hint &mdash; it´s DAG!)
         </p>
         <div class="d-flex">
             <img src="/user/themes/obyte/assets/events/img15.jpg" alt="">
@@ -113,9 +112,9 @@ media_order: 'Connectory Hackathon pic.jpeg,Japanese Blockchain Convention Jan 2
         <div class="date">January 2019</div>
         <div class="title">Japan Blockchain Conference in Yokohama, Japan </div>
         <p>
-            Obyte made its first visit to a major blockchain conference in Japan. We met with multiple projects from the area who were looking to use Obyte´s platform to power their decentralized solutions and application requiring high volume, low cost transactions as well as other features of th Obyte wallet such as multi-signature transactions and atomic swaps between cryptotokens.
+            Obyte made its first visit to a major blockchain conference in Japan. We met with multiple projects from the area who were looking to use Obyte´s platform to power their decentralized solutions and application requiring high volume, low cost transactions as well as other features of the Obyte wallet such as multi-signature transactions and atomic swaps between cryptotokens.
         </p>
         <img src="/user/themes/obyte/assets/events/img17.jpg" alt="">
     </div>
-</div>ли )
+</div>
 

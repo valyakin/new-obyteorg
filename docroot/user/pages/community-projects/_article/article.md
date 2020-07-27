@@ -16,8 +16,8 @@ class: community-projects-wrap
 
 <div class="flex-block">
     <div class="info-block">
-        <h2>Made On Obyte - Project Director</h2>
-        <p>As it might not always be obvious what technology is under the hood of a specific project or use case, a project was launched aiming to gather an overview of all the various projects built on the Obyte platform. It is called <a target="_blank" href="https://madeonobyte.org">Made On Obyte</a> - plain and simple. Here, you will find a repository of community projects that in one way or another utilizes one or more features of Obyte.</p>
+        <h2>Made On Obyte - Project Directory</h2>
+        <p>As it might not always be obvious what technology is under the hood of a specific project or use case, a project was launched aiming to gather an overview of all the various projects built on the Obyte platform. It is called <a target="_blank" href="https://madeonobyte.org">Made On Obyte</a> &mdash; plain and simple. Here, you will find a repository of community projects that in one way or another utilizes one or more features of Obyte.</p>
         <p>Made On Obyte recently introduced a <a target="_blank" href="https://madeonobyte.org/crowdfunding">crowdfunding feature</a>, allowing community projects to launch campaigns to raise funding for their project or startup. So with Obyte, every community project has a full set of tools covering the entire journey from initial inception of an idea all the way to a final product. So regardless of whether you prefer a traditional crowdfunding campaign or want to run an ICO to fund your project, all the features are already on Obyte, ready to be used.</p>
     </div>
     <div class="img-block">
