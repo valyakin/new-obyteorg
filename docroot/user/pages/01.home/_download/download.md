@@ -23,7 +23,7 @@ programs2:
         link: 'https://obyte.org/downloads/Obyte-osx64.dmg'
     -
         title: 'Linux 64bit'
-        link: 'https://obyte.org/downloads/Obyte-linux64.zip'
+        link: 'https://obyte.org/downloads/Obyte-x86_64.AppImage'
     -
         title: 'GitHub releases'
         link: 'https://github.com/byteball/obyte-gui-wallet/releases'
