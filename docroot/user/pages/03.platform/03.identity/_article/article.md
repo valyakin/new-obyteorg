@@ -92,8 +92,8 @@ Attestations can also be easily done manually by sending an attestation transact
         <div class="cat">Developers</div>
         <div class="title">Using Self-Sovereign Identity in your apps</div>
         <p>
-            Developers, see the documentation about <a href="">working with attestations in your bots</a>, 
-            <a href="">checking for attestations in smart contracts</a>, and <a href="">reading the attested data in Autonomous Agents</a>.
+            Developers, see the documentation about <a href="https://developer.obyte.org/private-profiles" target="_blank" rel="noopener">working with attestations in your bots</a>, 
+            <a href="https://developer.obyte.org/contracts/reference#attested" target="_blank" rel="noopener">checking for attestations in smart contracts</a>, and <a href="https://developer.obyte.org/autonomous-agents/oscript-language-reference#attestation" target="_blank" rel="noopener">reading the attested data in Autonomous Agents</a>.
         </p>
     </div>
 </div>
