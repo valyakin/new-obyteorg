@@ -92,7 +92,7 @@ While Smart Contracts enable fully trustless conditional payments, it is worth m
         <div class="cat">Developers</div>
         <div class="title">Using Smart Contracts in your apps</div>
         <p>
-            Developers, see the <a href="https://developer.obyte.org/contracts/smart-contracts">documentation about creating and offering smart contracts to your users</a>.
+            Developers, see the <a href="https://developer.obyte.org/contracts/smart-contracts" target="_blank" rel="noopener">documentation about creating and offering smart contracts to your users</a>.
         </p>
     </div>
 </div>

@@ -23,7 +23,7 @@ When a new token type is defined, its properties can be tailored to the environm
         transferrability of the new token only to attested users whose <a href="/platform/identity">identity</a> 
         has been verified by a trusted attestor. Attestation can include not just having a verified identity but 
         also having some other status such as <b>accredited investor</b>, which might be useful for security 
-        token offerings (STOs) and is supported by <a href="https://ico-platform.obyte.org">Obyte ICO platform</a>.
+        token offerings (STOs) and is supported by <a href="https://ico-platform.obyte.org" target="_blank" rel="noopener">Obyte ICO platform</a>.
     </p>
     <p>
         Where privacy matters, one can use <code>is_private</code> property to make all transfers with the token 
@@ -49,8 +49,8 @@ When a new token type is defined, its properties can be tailored to the environm
         <div class="cat">Developers</div>
         <div class="title">Using tokens in your apps</div>
         <p>
-            Developers, please refer to the <a href="https://developer.obyte.org/issuing-assets-on-byteball">documentation about issuing tokens on Obyte</a>.
-            <a target="_blank" href="https://obyte.app/#!/asset/order">Obyte Asset Registry</a> website helps to issue new tokens and set some of their parameters without developer knowledge.
+            Developers, please refer to the <a href="https://developer.obyte.org/issuing-assets-on-byteball" target="_blank" rel="noopener">documentation about issuing tokens on Obyte</a>.
+            <a target="_blank" rel="noopener" href="https://obyte.app/#!/asset/order">Obyte Asset Registry</a> website helps to issue new tokens and set some of their parameters without developer knowledge.
         </p>
     </div>
 </div>
