@@ -29,5 +29,5 @@ programs2:
         link: 'https://github.com/byteball/obyte-gui-wallet/releases'
 ---
  
-View public transactions on the [DAG explorer](https://explorer.obyte.org/?target=_blank). <br>
+View public transactions on the official [DAG explorer](https://explorer.obyte.org/?target=_blank) or [obyte.io](https://obyte.io/?target=_blank). <br>
 Unofficial web wallet (partial functionality): [wallet.obytechina.org](https://wallet.obytechina.org/?target=_blank) ([source code](https://github.com/gcc2ge/ObyteWebWallet?target=_blank)).
