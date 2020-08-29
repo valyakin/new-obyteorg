@@ -31,7 +31,7 @@ RewriteRule ^terms.html https://obyte.org/legal/terms [R=303,L]
 RewriteRule ^privacy.html https://obyte.org/legal/privacy [R=303,L]
 RewriteRule ^testnet.html https://obyte.org/testnet [R=303,L]
 
-RewriteRule ^milan https://old.obyte.org/$0 [R=303,L]
+RewriteRule ^milan.* https://old.obyte.org/$0 [R=303,L]
 
 
 
