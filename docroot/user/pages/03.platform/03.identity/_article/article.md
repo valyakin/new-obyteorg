@@ -77,7 +77,7 @@ Verifications are usually performed by bots. Here are a few bots whose attestati
         </div>
         <div class="info-block">
             <h2 class="title">Steem attestation bot</h2>
-            <p>This attestors is not available anymore, but their published data can be still used. It verified that a user had a Steem account and optionally published the user's Steem username and reputation. Applications may choose to offer some privileges to users with high Steem reputation. If the Steem username is published then other users can send payments to the attested user by typing "steem/username" instead of Obyte address.</p>
+            <p>Verified that a user had a Steem account and optionally published the user's Steem username and reputation. Applications may choose to offer some privileges to users with high Steem reputation. If the Steem username is published then other users can send payments to the attested user by typing "steem/username" instead of Obyte address. This attestor was stopped and doesn't create new attestations since Steem forked in 2020 but its published data can be used by apps forever.</p>
         </div>
     </div>
     <!--
