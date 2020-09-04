@@ -82,7 +82,7 @@ Verifications are usually performed by bots. Here are a few bots whose attestati
     </div>
     <div class="attestor-block">
         <div class="img-block">
-            <img src="/user/themes/obyte/assets/identity/svg4.svg" alt="">
+            <img src="/user/themes/obyte/assets/identity/github.svg" alt="">
         </div>
         <div class="info-block">
             <h2 class="title">GitHub attestation bot</h2>
