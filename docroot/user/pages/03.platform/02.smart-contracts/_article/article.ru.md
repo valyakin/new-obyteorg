@@ -3,7 +3,7 @@ title: 'Smart Contracts'
 class: smart-contracts-wrap
 ---
 
-# Smart Contracts
+# Смарт-контракты
 
 <div class="sub-block">
     Smart contracts on Obyte are contracts whose conditions are enforced by code rather than law.
